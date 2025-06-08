@@ -46,7 +46,9 @@
                            Placeholder="ejemplo@correo.com"
                            Text="{Binding Email}"
                            Keyboard="Email"
-                           Margin="5,0" />
+                           Margin="5,0"
+                           ReturnType="Next"
+                           Completed="OnEmailCompleted" />
                 </Border>
             </VerticalStackLayout>
 
@@ -61,7 +63,9 @@
                            Placeholder="Contraseña"
                            Text="{Binding Password}"
                            IsPassword="True"
-                           Margin="5,0" />
+                           Margin="5,0"
+                           ReturnType="Go"
+                           Completed="OnPasswordCompleted" />
                 </Border>
             </VerticalStackLayout>
 
@@ -74,6 +78,7 @@
                     Margin="0,20,0,0"
                     HeightRequest="50"
                     CornerRadius="5" />
+
         </VerticalStackLayout>
 
         <!-- Footer -->

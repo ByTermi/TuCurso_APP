@@ -128,23 +128,25 @@
                                    TextColor="White"
                                    FontSize="12"/>
                         </Frame>
+                        
                         <Frame BackgroundColor="{StaticResource Primary}"
                                Margin="5"
                                Padding="8,4"
                                CornerRadius="15"
                                HasShadow="False">
-                            <Label Text="Xamarin"
+                            <Label Text="Java"
                                    TextColor="White"
                                    FontSize="12"/>
                         </Frame>
+
                         <Frame BackgroundColor="{StaticResource Primary}"
-                               Margin="5"
-                               Padding="8,4"
-                               CornerRadius="15"
-                               HasShadow="False">
-                            <Label Text="Mobile Development"
-                                   TextColor="White"
-                                   FontSize="12"/>
+                           Margin="5"
+                           Padding="8,4"
+                           CornerRadius="15"
+                           HasShadow="False">
+                           <Label Text="Spring Boot"
+                               TextColor="White"
+                               FontSize="12"/>
                         </Frame>
                     </FlexLayout>
                 </VerticalStackLayout>

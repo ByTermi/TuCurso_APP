@@ -493,3 +493,4 @@ D:\CLASES_2024_2025\TFG\AppDef\TuCurso\obj\Debug\net9.0-windows10.0.19041.0\win1
 D:\CLASES_2024_2025\TFG\AppDef\TuCurso\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\qualifiers.txt
 D:\CLASES_2024_2025\TFG\AppDef\TuCurso\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\qualifiers.txt.intermediate
 D:\CLASES_2024_2025\TFG\AppDef\TuCurso\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\MultipleQualifiersPerDimensionFound.txt
+D:\CLASES_2024_2025\TFG\AppDef\TuCurso\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\TuCurso.sourcelink.json

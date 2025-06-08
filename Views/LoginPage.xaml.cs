@@ -178,6 +178,19 @@ public partial class LoginPage : ContentPage, INotifyPropertyChanged
         ErrorMessage = string.Empty;
     }
 
+    private void OnEmailCompleted(object sender, EventArgs e)
+    {
+        PasswordEntry.Focus();
+    }
+
+    private void OnPasswordCompleted(object sender, EventArgs e)
+    {
+        if (LoginCommand?.CanExecute(null) == true)
+        {
+            LoginCommand.Execute(null);
+        }
+    }
+
     public new event PropertyChangedEventHandler? PropertyChanged;
 
     protected virtual void OnPropertyChanged([CallerMemberName] string? propertyName = null)
