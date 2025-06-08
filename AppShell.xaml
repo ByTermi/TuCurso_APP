@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="TuCurso.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:TuCurso"
+    xmlns:views="clr-namespace:TuCurso.Views"
+    Shell.FlyoutBehavior="Flyout">
+
+    <!-- Rutas no autenticadas -->
+    <ShellContent
+        Title="Iniciar Sesión"
+        ContentTemplate="{DataTemplate views:LoginPage}"
+        Route="login" />
+
+    <ShellContent
+        Title="Registrarse"
+        ContentTemplate="{DataTemplate views:RegisterPage}"
+        Route="register" />
+
+    <ShellContent
+        Title="Sobre el creador"
+        ContentTemplate="{DataTemplate views:SobreMiPage}"
+        Route="SobreMiPage" />
+
+    <!-- Rutas autenticadas (inicialmente ocultas) -->
+    <FlyoutItem Title="Principal" IsVisible="{Binding IsAuthenticated}">
+        <ShellContent
+            Title="Principal"
+            Icon="home.png"
+            ContentTemplate="{DataTemplate local:MainPage}"
+            Route="main" />
+    </FlyoutItem>
+
+    <!-- Sección de Amigos -->
+    <FlyoutItem Title="Amigos" 
+                Icon="friends.png"
+                IsVisible="{Binding IsAuthenticated}">
+        <ShellContent
+            Title="Mis Amigos"
+            ContentTemplate="{DataTemplate views:MisAmigosPage}"
+            Route="MisAmigosPage" />
+        <ShellContent
+            Title="Añadir Amigos"
+            ContentTemplate="{DataTemplate views:AnadirAmigosPage}"
+            Route="AnadirAmigosPage" />
+        <ShellContent
+            Title="Solicitudes"
+            ContentTemplate="{DataTemplate views:SolicitudesAmistadPage}"
+            Route="SolicitudesAmistadPage" />
+    </FlyoutItem>
+
+    <FlyoutItem Title="Mis Apuntes" IsVisible="{Binding IsAuthenticated}">
+        <ShellContent
+            Title="Apuntes"
+            Icon="notes.png"
+            ContentTemplate="{DataTemplate views:ApuntesPage}"
+            Route="ApuntesPage" />
+    </FlyoutItem>
+
+    <FlyoutItem Title="Pomodoro" IsVisible="{Binding IsAuthenticated}">
+        <ShellContent
+            Title="Pomodoro"
+            Icon="timer.png"
+            ContentTemplate="{DataTemplate views:PomodoroView}"
+            Route="PomodoroView" />
+    </FlyoutItem>
+
+    <!-- Menú de Cerrar Sesión -->
+    <Shell.FlyoutFooter>
+        <Grid IsVisible="{Binding IsAuthenticated}"
+              Padding="20">
+            <Button Text="Cerrar Sesión"
+                    ImageSource="logout.png"
+                    Command="{Binding LogoutCommand}"
+                    HorizontalOptions="Fill"
+                    BackgroundColor="Transparent"
+                    TextColor="{StaticResource White}"/>
+        </Grid>
+    </Shell.FlyoutFooter>
+
+</Shell>

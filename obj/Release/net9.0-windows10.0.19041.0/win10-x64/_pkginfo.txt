@@ -1,0 +1,1 @@
+D:\CLASES_2024_2025\TFG\AppDef\TuCurso\bin\Release\net9.0-windows10.0.19041.0\win10-x64\AppPackages\TuCurso_1.0.0.1_Test\TuCurso_1.0.0.1_x64.msix

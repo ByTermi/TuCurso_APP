@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TuCurso.Views.SobreMiPage"
+             Title="Sobre Mí">
+    <ScrollView>
+        <VerticalStackLayout Spacing="20" Padding="20">
+
+            <!-- Información Personal -->
+            <Frame BorderColor="{StaticResource Primary}" 
+                   Padding="20" 
+                   CornerRadius="15"
+                   HasShadow="True">
+                <VerticalStackLayout Spacing="10">
+
+                    <Label Text="Jaime Novillo Benito"
+                           FontSize="28"
+                           FontAttributes="Bold"
+                           HorizontalOptions="Center"
+                           TextColor="{StaticResource Primary}"/>
+
+                    <Label Text="Desarrollador de Software"
+                           FontSize="18"
+                           FontAttributes="Italic"
+                           HorizontalOptions="Center"
+                           TextColor="{AppThemeBinding Light={StaticResource Gray600}, Dark={StaticResource Gray400}}"/>
+                </VerticalStackLayout>
+            </Frame>
+
+            <!-- Formación -->
+            <Frame BorderColor="{AppThemeBinding Light={StaticResource Gray300}, Dark={StaticResource Gray600}}" 
+                   Padding="15" 
+                   CornerRadius="10">
+                <VerticalStackLayout Spacing="8">
+                    <Label Text="📚 Formación"
+                           FontSize="20"
+                           FontAttributes="Bold"
+                           TextColor="{StaticResource Primary}"/>
+
+                    <Label Text="Técnico Superior en Desarrollo de Aplicaciones Multiplataforma"
+                           FontSize="16"
+                           TextColor="{AppThemeBinding Light={StaticResource Black}, Dark={StaticResource White}}"/>
+                </VerticalStackLayout>
+            </Frame>
+
+            <!-- Enlaces Profesionales -->
+            <Frame BorderColor="{AppThemeBinding Light={StaticResource Gray300}, Dark={StaticResource Gray600}}" 
+                   Padding="15" 
+                   CornerRadius="10">
+                <VerticalStackLayout Spacing="15">
+                    <Label Text="🔗 Enlaces"
+                           FontSize="20"
+                           FontAttributes="Bold"
+                           TextColor="{StaticResource Primary}"/>
+
+                    <!-- LinkedIn -->
+                    <Grid ColumnDefinitions="40,*">
+                        <Label Text="💼"
+                               FontSize="24"
+                               VerticalOptions="Center"
+                               HorizontalOptions="Center"/>
+                        <VerticalStackLayout Grid.Column="1" Spacing="2">
+                            <Label Text="LinkedIn"
+                                   FontSize="16"
+                                   FontAttributes="Bold"/>
+                            <Label Text="www.linkedin.com/in/jaime-novillo-benito"
+                                   FontSize="14"
+                                   TextColor="{StaticResource Primary}"
+                                   TextDecorations="Underline">
+                                <Label.GestureRecognizers>
+                                    <TapGestureRecognizer Command="{Binding ComandoAbrirLinkedIn}"/>
+                                </Label.GestureRecognizers>
+                            </Label>
+                        </VerticalStackLayout>
+                    </Grid>
+
+                    <!-- GitHub -->
+                    <Grid ColumnDefinitions="40,*">
+                        <Label Text="⚡"
+                               FontSize="24"
+                               VerticalOptions="Center"
+                               HorizontalOptions="Center"/>
+                        <VerticalStackLayout Grid.Column="1" Spacing="2">
+                            <Label Text="GitHub"
+                                   FontSize="16"
+                                   FontAttributes="Bold"/>
+                            <Label Text="github.com/ByTermi"
+                                   FontSize="14"
+                                   TextColor="{StaticResource Primary}"
+                                   TextDecorations="Underline">
+                                <Label.GestureRecognizers>
+                                    <TapGestureRecognizer Command="{Binding ComandoAbrirGitHub}"/>
+                                </Label.GestureRecognizers>
+                            </Label>
+                        </VerticalStackLayout>
+                    </Grid>
+                </VerticalStackLayout>
+            </Frame>
+
+            <!-- Habilidades -->
+            <Frame BorderColor="{AppThemeBinding Light={StaticResource Gray300}, Dark={StaticResource Gray600}}" 
+                   Padding="15" 
+                   CornerRadius="10">
+                <VerticalStackLayout Spacing="10">
+                    <Label Text="🛠️ Tecnologías"
+                           FontSize="20"
+                           FontAttributes="Bold"
+                           TextColor="{StaticResource Primary}"/>
+
+                    <FlexLayout Wrap="Wrap" 
+                                JustifyContent="Start"
+                                AlignItems="Start">
+                        <Frame BackgroundColor="{StaticResource Primary}"
+                               Margin="5"
+                               Padding="8,4"
+                               CornerRadius="15"
+                               HasShadow="False">
+                            <Label Text=".NET MAUI"
+                                   TextColor="White"
+                                   FontSize="12"/>
+                        </Frame>
+                        <Frame BackgroundColor="{StaticResource Primary}"
+                               Margin="5"
+                               Padding="8,4"
+                               CornerRadius="15"
+                               HasShadow="False">
+                            <Label Text="C#"
+                                   TextColor="White"
+                                   FontSize="12"/>
+                        </Frame>
+                        <Frame BackgroundColor="{StaticResource Primary}"
+                               Margin="5"
+                               Padding="8,4"
+                               CornerRadius="15"
+                               HasShadow="False">
+                            <Label Text="Xamarin"
+                                   TextColor="White"
+                                   FontSize="12"/>
+                        </Frame>
+                        <Frame BackgroundColor="{StaticResource Primary}"
+                               Margin="5"
+                               Padding="8,4"
+                               CornerRadius="15"
+                               HasShadow="False">
+                            <Label Text="Mobile Development"
+                                   TextColor="White"
+                                   FontSize="12"/>
+                        </Frame>
+                    </FlexLayout>
+                </VerticalStackLayout>
+            </Frame>
+
+            <!-- Información Adicional -->
+            <Frame BorderColor="{AppThemeBinding Light={StaticResource Gray300}, Dark={StaticResource Gray600}}" 
+                   Padding="15" 
+                   CornerRadius="10">
+                <VerticalStackLayout Spacing="8">
+                    <Label Text="ℹ️ Sobre esta App"
+                           FontSize="20"
+                           FontAttributes="Bold"
+                           TextColor="{StaticResource Primary}"/>
+
+                    <Label Text="Desarrollada con .NET MAUI"
+                           FontSize="14"
+                           HorizontalOptions="Center"
+                           TextColor="{AppThemeBinding Light={StaticResource Gray600}, Dark={StaticResource Gray400}}"/>
+
+                    <Label Text="Versión 1.0.0"
+                           FontSize="12"
+                           HorizontalOptions="Center"
+                           TextColor="{AppThemeBinding Light={StaticResource Gray500}, Dark={StaticResource Gray500}}"/>
+                </VerticalStackLayout>
+            </Frame>
+
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

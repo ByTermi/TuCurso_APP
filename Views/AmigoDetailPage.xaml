@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TuCurso.Views.AmigoDetailPage"
+             Title="Detalle del Amigo">
+
+    <ScrollView>
+        <VerticalStackLayout Spacing="16" Padding="20">
+            <!-- Información del Usuario -->
+            <Frame BorderColor="{StaticResource Primary}" 
+                   Padding="15" 
+                   CornerRadius="10">
+                <VerticalStackLayout Spacing="5">
+                    <Label Text="{Binding Usuario.Nombre}"
+                           FontSize="24"
+                           FontAttributes="Bold"
+                           HorizontalOptions="Center"/>
+                    <Label Text="{Binding Usuario.Email}"
+                           FontSize="16"
+                           TextColor="{AppThemeBinding Light={StaticResource Gray600}, Dark={StaticResource Gray400}}"
+                           HorizontalOptions="Center"/>
+                </VerticalStackLayout>
+            </Frame>
+
+            <!-- Sección de Cursos -->
+            <Label Text="Cursos Completados"
+                   FontSize="20"
+                   FontAttributes="Bold"
+                   Margin="0,10,0,5"/>
+
+            <CollectionView ItemsSource="{Binding Cursos}"
+                          EmptyView="No hay cursos completados">
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <Frame Margin="0,5" Padding="10">
+                            <Grid ColumnDefinitions="*,Auto">
+                                <Label Text="{Binding Nombre}"
+                                       VerticalOptions="Center"
+                                       FontSize="16"/>
+                                <CheckBox Grid.Column="1"
+                                         IsChecked="{Binding Finalizado}"
+                                         IsEnabled="False"/>
+                            </Grid>
+                        </Frame>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+
+            <!-- Sección de Pomodoros -->
+            <Label Text="Pomodoros Realizados"
+                   FontSize="20"
+                   FontAttributes="Bold"
+                   Margin="0,10,0,5"/>
+
+            <CollectionView ItemsSource="{Binding Pomodoros}"
+                          EmptyView="No hay pomodoros registrados">
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <Frame Margin="0,5" Padding="10">
+                            <Grid RowDefinitions="Auto,Auto" 
+                                  ColumnDefinitions="*,Auto">
+                                <Label Text="{Binding Nombre}"
+                                       FontAttributes="Bold"/>
+                                <Label Grid.Column="1"
+                                       Text="{Binding FechaHoraInicial, StringFormat='{0:dd/MM/yyyy HH:mm}'}"
+                                       TextColor="{AppThemeBinding Light={StaticResource Gray600}, Dark={StaticResource Gray400}}"/>
+                                <Label Grid.Row="1" Grid.ColumnSpan="2"
+                                       Text="{Binding Duracion}"
+                                       TextColor="{AppThemeBinding Light={StaticResource Gray600}, Dark={StaticResource Gray400}}"/>
+                            </Grid>
+                        </Frame>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

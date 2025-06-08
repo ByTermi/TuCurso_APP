@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:TuCurso.Views"
+             xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
+             x:Class="TuCurso.Views.CursoDetailPage"
+             xmlns:behaviors="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
+             x:Name="cursosDetailPage"
+             Title="Detalles del Curso"
+             BackgroundColor="{AppThemeBinding Light={StaticResource White}, Dark={StaticResource Gray950}}">
+
+
+
+    <ScrollView>
+        <Grid RowSpacing="0" Padding="0">
+            <ActivityIndicator IsRunning="{Binding IsBusy}"
+                             IsVisible="{Binding IsBusy}"
+                             HorizontalOptions="Center"
+                             VerticalOptions="Center"
+                             Color="{StaticResource Primary}"/>
+
+            <VerticalStackLayout IsVisible="{Binding IsNotBusy}" Spacing="0">
+                <!-- Cabecera -->
+                <Frame BackgroundColor="{StaticResource Primary}"
+                       Padding="20"
+                       CornerRadius="0"
+                       HasShadow="True">
+                    <VerticalStackLayout Spacing="10">
+                        <Label Text="{Binding Curso.Nombre}"
+                               FontSize="28"
+                               FontAttributes="Bold"
+                               TextColor="White"
+                               HorizontalOptions="Center"/>
+                        <Label Text="{Binding Curso.Precio, StringFormat='Precio: {0:C}'}"
+                               FontSize="20"
+                               TextColor="WhiteSmoke"
+                               HorizontalOptions="Center"/>
+                    </VerticalStackLayout>
+                </Frame>
+
+                <!-- Contenido -->
+                <Frame Margin="20"
+                       Padding="20"
+                       BackgroundColor="{AppThemeBinding Light={StaticResource White}, Dark={StaticResource Gray900}}"
+                       BorderColor="{AppThemeBinding Light={StaticResource Gray300}, Dark={StaticResource Gray800}}"
+                       CornerRadius="10"
+                       HasShadow="True">
+                    <VerticalStackLayout Spacing="15">
+                        <!-- Estado -->
+                        <Frame BorderColor="{StaticResource Primary}"
+       BackgroundColor="{AppThemeBinding Light={StaticResource Gray100}, Dark={StaticResource Gray800}}"
+       Padding="15"
+       CornerRadius="5">
+                            <HorizontalStackLayout Spacing="10"
+                          HorizontalOptions="Center">
+                                <CheckBox IsChecked="{Binding Curso.Finalizado}"
+                 IsEnabled="False"
+                 VerticalOptions="Center"/>
+                                <Label Text="Estado del curso"
+               TextColor="{AppThemeBinding Light={StaticResource Gray900}, Dark={StaticResource White}}"
+               VerticalOptions="Center"
+               FontAttributes="Bold"/>
+                            </HorizontalStackLayout>
+                        </Frame>
+
+                        <!-- Enlace -->
+                        <Frame BorderColor="{StaticResource Primary}"
+       BackgroundColor="{AppThemeBinding Light={StaticResource White}, Dark={StaticResource Gray800}}"
+       Padding="15"
+       CornerRadius="5">
+                            <VerticalStackLayout Spacing="5">
+                                <Label Text="Enlace del curso"
+               FontAttributes="Bold"
+               TextColor="{AppThemeBinding Light={StaticResource Gray900}, Dark={StaticResource White}}"/>
+                                <Label Text="{Binding Curso.Enlace}"
+               TextColor="{AppThemeBinding Light=#2563EB, Dark=#60A5FA}"
+               TextDecorations="Underline"
+               FontSize="16">
+                                    <Label.GestureRecognizers>
+                                        <TapGestureRecognizer Command="{Binding OpenUrlCommand}"/>
+                                    </Label.GestureRecognizers>
+                                </Label>
+                            </VerticalStackLayout>
+                        </Frame>
+
+                        <!-- Anotaciones -->
+                        <VerticalStackLayout Spacing="5">
+                            <Label Text="Anotaciones"
+                               FontAttributes="Bold"
+                               TextColor="{AppThemeBinding Light={StaticResource Gray900}, Dark={StaticResource White}}"/>
+                                                <Frame BorderColor="{StaticResource Primary}"
+                               BackgroundColor="{AppThemeBinding Light={StaticResource White}, Dark={StaticResource Gray800}}"
+                               Padding="15"
+                               CornerRadius="5">
+                                                    <Label Text="{Binding Curso.Anotaciones}"
+                                   TextColor="{AppThemeBinding Light={StaticResource Gray900}, Dark={StaticResource White}}"
+                                   LineBreakMode="WordWrap"/>
+                            </Frame>
+                        </VerticalStackLayout>
+
+
+
+
+                    </VerticalStackLayout>
+                </Frame>
+
+                <!-- Puntos de Control -->
+                <VerticalStackLayout Spacing="5" Margin="20,0">
+                    <Label Text="Puntos de Control"
+           FontAttributes="Bold"
+           TextColor="{AppThemeBinding Light={StaticResource Gray900}, Dark={StaticResource White}}"
+           Margin="0,10,0,5"/>
+
+                    <Frame BorderColor="{StaticResource Primary}"
+           BackgroundColor="{AppThemeBinding Light={StaticResource White}, Dark={StaticResource Gray800}}"
+           Padding="15"
+           Margin="0,0,0,20"
+           CornerRadius="5">
+                        <VerticalStackLayout Spacing="10">
+                            <CollectionView ItemsSource="{Binding PuntosDeControl}"
+                EmptyView="No hay puntos de control">
+                                <CollectionView.ItemTemplate>
+                                    <DataTemplate>
+                                        <Grid ColumnDefinitions="Auto,*,Auto" 
+                  Padding="5"
+                  Margin="0,5"
+                  RowSpacing="5">
+                                            <CheckBox Grid.Column="0"
+          IsChecked="{Binding Completado}"
+          VerticalOptions="Center"
+          CheckedChanged="OnPuntoCheckedChanged">
+                                            </CheckBox>
+
+
+
+                                            <VerticalStackLayout Grid.Column="1" Spacing="5">
+                                                <Label Text="{Binding Descripcion}"
+                           FontAttributes="Bold"
+                           TextColor="{AppThemeBinding Light={StaticResource Gray900}, Dark={StaticResource White}}"
+                           LineBreakMode="WordWrap"/>
+
+                                                <Label Text="{Binding FechaFinalizacionDeseada, StringFormat='Fecha límite: {0:dd/MM/yyyy}'}"
+                           TextColor="{AppThemeBinding Light={StaticResource Gray600}, Dark={StaticResource Gray300}}">
+                                                    <Label.GestureRecognizers>
+                                                        <TapGestureRecognizer 
+                                Command="{Binding Source={x:Reference cursosDetailPage}, Path=EditarFechaCommand}"
+                                CommandParameter="{Binding .}"/>
+                                                    </Label.GestureRecognizers>
+                                                </Label>
+                                            </VerticalStackLayout>
+
+                                            <Button Grid.Column="2"
+                        Text="🗑️"
+                        Command="{Binding Source={x:Reference cursosDetailPage}, Path=EliminarPuntoCommand}"
+                        CommandParameter="{Binding .}"
+                        BackgroundColor="Transparent"
+                        TextColor="{StaticResource Danger}"
+                        FontSize="20"/>
+                                        </Grid>
+                                    </DataTemplate>
+                                </CollectionView.ItemTemplate>
+                            </CollectionView>
+
+
+                            <Button Text="Añadir Punto de Control"
+        Command="{Binding Source={x:Reference cursosDetailPage}, Path=AgregarPuntoCommand}"
+        Clicked="OnAgregarPuntoClicked"
+        BackgroundColor="{StaticResource Primary}"
+        TextColor="White"
+        HeightRequest="40"
+        CornerRadius="20"
+        Margin="0,10,0,0"/>
+
+
+
+
+                        </VerticalStackLayout>
+                    </Frame>
+                </VerticalStackLayout>
+
+
+                <!-- Botones -->
+                <HorizontalStackLayout Spacing="15"
+                                     HorizontalOptions="Center"
+                                     Margin="20">
+                    <Button Text="Editar"
+                            Command="{Binding EditarCommand}"
+                            BackgroundColor="{StaticResource Primary}"
+                            TextColor="White"
+                            WidthRequest="120"
+                            HeightRequest="50"
+                            CornerRadius="25">
+                        <Button.Shadow>
+                            <Shadow Brush="{StaticResource Primary}"
+                                   Offset="0,3"
+                                   Opacity="0.5"/>
+                        </Button.Shadow>
+                    </Button>
+                    <Button Text="Volver"
+                            Command="{Binding VolverCommand}"
+                            BackgroundColor="{AppThemeBinding Light={StaticResource Gray200}, Dark={StaticResource Gray800}}"
+                            TextColor="{AppThemeBinding Light={StaticResource Gray900}, Dark={StaticResource White}}"
+                            WidthRequest="120"
+                            HeightRequest="50"
+                            CornerRadius="25"/>
+                </HorizontalStackLayout>
+            </VerticalStackLayout>
+        </Grid>
+    </ScrollView>
+</ContentPage>

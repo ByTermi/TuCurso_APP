@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TuCurso.Views.ApuntesPage"
+             xmlns:views="clr-namespace:TuCurso.Views"
+             Title="Mis Apuntes">
+
+    <Grid RowDefinitions="Auto,Auto,*">
+        <!-- Botón Añadir Apunte -->
+        <Button Grid.Row="0"
+                Text="Añadir Apunte"
+                Command="{Binding AnadirApunteCommand}"
+                Margin="10"
+                HorizontalOptions="Fill"/>
+
+        <!-- Texto de ayuda con instrucciones para PC y móvil -->
+        <Border Grid.Row="1" 
+                Margin="10,0,10,10"
+                StrokeShape="RoundRectangle 8"
+                BackgroundColor="{AppThemeBinding Light={StaticResource Gray100}, Dark={StaticResource Gray800}}"
+                Padding="10,5">
+            <VerticalStackLayout Spacing="5" HorizontalOptions="Center">
+                <Label Text="¿Cómo eliminar un apunte?" 
+                       FontSize="16"
+                       TextColor="{AppThemeBinding Light={StaticResource Primary}, Dark={StaticResource White}}"
+                       FontAttributes="Bold"
+                       HorizontalOptions="Center"/>
+                <Label HorizontalOptions="Center"
+                       TextColor="{AppThemeBinding Light={StaticResource Gray900}, Dark={StaticResource Gray200}}"
+                       FontSize="14">
+                    <Label.FormattedText>
+                        <FormattedString>
+                            <Span Text="• En móvil: " FontAttributes="Bold"/>
+                            <Span Text="desliza hacia la izquierda"/>
+                            <Span Text="&#x0a;"/>
+                            <Span Text="• En PC: " FontAttributes="Bold"/>
+                            <Span Text="click derecho sobre el apunte"/>
+                        </FormattedString>
+                    </Label.FormattedText>
+                </Label>
+            </VerticalStackLayout>
+        </Border>
+
+        <!-- Lista de Apuntes -->
+        <RefreshView Grid.Row="2" 
+                    Command="{Binding CargarApuntesCommand}"
+                    IsRefreshing="{Binding IsBusy}">
+            <CollectionView ItemsSource="{Binding Apuntes}"
+                          EmptyView="No hay apuntes guardados">
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <SwipeView>
+                            <SwipeView.RightItems>
+                                <SwipeItems>
+                                    <SwipeItem Text="Eliminar"
+                                             BackgroundColor="{StaticResource Destructive}"
+                                             Command="{Binding Source={RelativeSource AncestorType={x:Type views:ApuntesPage}}, Path=EliminarApunteCommand}"
+                                             CommandParameter="{Binding .}"/>
+                                </SwipeItems>
+                            </SwipeView.RightItems>
+                            <Frame Margin="10,5" Padding="10">
+                                <Grid RowDefinitions="Auto,Auto" ColumnDefinitions="Auto,*">
+                                    <FlyoutBase.ContextFlyout>
+                                        <MenuFlyout>
+                                            <MenuFlyoutItem Text="Eliminar"
+                                                          Command="{Binding Source={RelativeSource AncestorType={x:Type views:ApuntesPage}}, Path=EliminarApunteCommand}"
+                                                          CommandParameter="{Binding .}"/>
+                                        </MenuFlyout>
+                                    </FlyoutBase.ContextFlyout>
+
+                                    <!-- Icono de advertencia si el archivo no existe -->
+                                    <Image Grid.Row="0" Grid.Column="0"
+                                           Source="warning.png"
+                                           HeightRequest="20"
+                                           WidthRequest="20"
+                                           Margin="0,0,10,0"
+                                           IsVisible="{Binding ArchivoExiste, Converter={StaticResource InvertedBoolConverter}}"/>
+
+                                    <!-- Contenido principal -->
+                                    <VerticalStackLayout Grid.Row="0" Grid.Column="1" Spacing="5">
+                                        <!-- Nombre y fecha -->
+                                        <HorizontalStackLayout Spacing="10">
+                                            <Label Text="{Binding Nombre}"
+                                                   FontAttributes="Bold"
+                                                   VerticalOptions="Center"/>
+                                            <Label Text="{Binding FechaCreacion, StringFormat='{0:dd/MM/yyyy}'}"
+                                                   FontSize="12"
+                                                   TextColor="{AppThemeBinding Light={StaticResource Gray600}, Dark={StaticResource Gray400}}"
+                                                   VerticalOptions="Center"/>
+                                        </HorizontalStackLayout>
+
+                                        <!-- Descripción -->
+                                        <Label Text="{Binding Descripcion}"
+                                               FontSize="Small"
+                                               TextColor="{AppThemeBinding Light={StaticResource Gray600}, Dark={StaticResource Gray400}}"
+                                               IsVisible="{Binding Descripcion, Converter={StaticResource StringNotEmptyConverter}}"/>
+
+                                        <!-- Indicador de estado del archivo 
+                                        <Label IsVisible="{Binding ArchivoExiste, Converter={StaticResource InvertedBoolConverter}}"
+                                               Text="Archivo no disponible"
+                                               TextColor="{StaticResource Destructive}"
+                                               FontSize="13"/>-->
+                                    </VerticalStackLayout>
+
+                                    <Grid.GestureRecognizers>
+                                        <TapGestureRecognizer 
+                                            Command="{Binding Source={RelativeSource AncestorType={x:Type views:ApuntesPage}}, Path=AbrirApunteCommand}"
+                                            CommandParameter="{Binding .}"/>
+                                    </Grid.GestureRecognizers>
+                                </Grid>
+                            </Frame>
+                        </SwipeView>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+        </RefreshView>
+    </Grid>
+</ContentPage>

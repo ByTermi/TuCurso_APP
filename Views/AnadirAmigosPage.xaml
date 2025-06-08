@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TuCurso.Views.AnadirAmigosPage"
+             Title="Añadir Amigos">
+
+    <Grid RowDefinitions="Auto,*" Padding="20">
+        <!-- Barra de búsqueda -->
+        <SearchBar Grid.Row="0"
+                   Placeholder="Buscar usuarios..."
+                   TextChanged="OnSearchTextChanged"
+                   SearchButtonPressed="OnSearchButtonPressed"/>
+
+        <!-- Lista de usuarios -->
+        <CollectionView Grid.Row="1"
+                       x:Name="usuariosCollectionView"
+                       ItemsSource="{Binding Usuarios}"
+                       EmptyView="No se encontraron usuarios">
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <Frame Margin="0,5"
+                           Padding="15"
+                           BorderColor="{StaticResource Primary}"
+                           BackgroundColor="{AppThemeBinding Light={StaticResource White}, Dark={StaticResource Gray800}}">
+                        <Grid ColumnDefinitions="Auto,*,Auto">
+                            <!-- Icono del usuario -->
+                            <Frame Grid.Column="0"
+                                   CornerRadius="25"
+                                   HeightRequest="50"
+                                   WidthRequest="50"
+                                   Padding="0"
+                                   IsClippedToBounds="True">
+                                <Image Source="{Binding Icono}"
+                                       Aspect="AspectFill"
+                                       HeightRequest="50"
+                                       WidthRequest="50"/>
+                            </Frame>
+
+                            <!-- Información del usuario -->
+                            <VerticalStackLayout Grid.Column="1"
+                                               Margin="15,0"
+                                               VerticalOptions="Center">
+                                <Label Text="{Binding Nombre}"
+                                       FontAttributes="Bold"/>
+                                <Label Text="{Binding Descripcion}"
+                                       TextColor="{AppThemeBinding Light={StaticResource Gray600}, Dark={StaticResource Gray400}}"
+                                       FontSize="14"/>
+                            </VerticalStackLayout>
+
+                            <!-- Botón de enviar solicitud -->
+                            <Button Grid.Column="2"
+                                    Text="Agregar"
+                                    Command="{Binding Source={RelativeSource AncestorType={x:Type ContentPage}}, Path=EnviarSolicitudCommand}"
+                                    CommandParameter="{Binding .}"
+                                    BackgroundColor="{StaticResource Primary}"
+                                    TextColor="White"
+                                    HeightRequest="40"
+                                    WidthRequest="100"
+                                    CornerRadius="20"/>
+                        </Grid>
+                    </Frame>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+
+        <!-- Indicador de carga -->
+        <ActivityIndicator Grid.RowSpan="2"
+                          IsRunning="{Binding IsBusy}"
+                          IsVisible="{Binding IsBusy}"
+                          HorizontalOptions="Center"
+                          VerticalOptions="Center"/>
+    </Grid>
+</ContentPage>

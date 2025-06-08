@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TuCurso.Views.MisAmigosPage"
+             Title="Mis Amigos">
+
+    <Grid RowDefinitions="Auto,*" Padding="20">
+        <!-- Cabecera -->
+        <VerticalStackLayout Grid.Row="0" Spacing="10">
+            <Label Text="Mis Amigos"
+                   FontSize="24"
+                   FontAttributes="Bold"
+                   HorizontalOptions="Center"/>
+
+            <Label x:Name="cantidadAmigosLabel"
+                   Text="Tienes 0 amigos"
+                   TextColor="{AppThemeBinding Light={StaticResource Gray600}, Dark={StaticResource Gray400}}"
+                   HorizontalOptions="Center"/>
+        </VerticalStackLayout>
+
+        <!-- Lista de Amigos -->
+        <RefreshView Grid.Row="1" 
+                    IsRefreshing="{Binding IsBusy}"
+                    Command="{Binding RefreshCommand}">
+            <CollectionView ItemsSource="{Binding Amigos}"
+                          EmptyView="No tienes amigos agregados">
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <Frame Margin="0,5"
+                               Padding="15"
+                               BorderColor="{StaticResource Primary}"
+                               BackgroundColor="{AppThemeBinding Light={StaticResource White}, Dark={StaticResource Gray800}}">
+                            <Grid ColumnDefinitions="Auto,*,Auto">
+                                <!-- Icono del usuario -->
+                                <Frame Grid.Column="0"
+                                       CornerRadius="25"
+                                       HeightRequest="50"
+                                       WidthRequest="50"
+                                       Padding="0"
+                                       IsClippedToBounds="True">
+                                    <Image Source="{Binding Icono}"
+                                           Aspect="AspectFill"
+                                           HeightRequest="50"
+                                           WidthRequest="50"/>
+                                </Frame>
+
+                                <!-- Información del usuario -->
+                                <VerticalStackLayout Grid.Column="1"
+                                                   Margin="15,0"
+                                                   VerticalOptions="Center">
+                                    <Label Text="{Binding Nombre}"
+                                           FontAttributes="Bold"/>
+                                    <Label Text="{Binding Email}"
+                                           TextColor="{AppThemeBinding Light={StaticResource Gray600}, Dark={StaticResource Gray400}}"
+                                           FontSize="14"/>
+                                </VerticalStackLayout>
+
+                                <!-- Botón de eliminar -->
+                                <Button Grid.Column="2"
+                                        Text="🗑️"
+                                        Command="{Binding Source={RelativeSource AncestorType={x:Type ContentPage}}, Path=EliminarAmigoCommand}"
+                                        CommandParameter="{Binding .}"
+                                        BackgroundColor="Transparent"
+                                        TextColor="{StaticResource Danger}"
+                                        FontSize="20"/>
+                                <Grid.GestureRecognizers>
+                                    <TapGestureRecognizer 
+        Command="{Binding Source={RelativeSource AncestorType={x:Type ContentPage}}, Path=AmigoTappedCommand}"
+        CommandParameter="{Binding .}"/>
+                                </Grid.GestureRecognizers>
+                            </Grid>
+                        </Frame>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+        </RefreshView>
+
+        <!-- Indicador de carga -->
+        <ActivityIndicator Grid.RowSpan="2"
+                          IsRunning="{Binding IsBusy}"
+                          IsVisible="{Binding IsBusy}"
+                          HorizontalOptions="Center"
+                          VerticalOptions="Center"/>
+    </Grid>
+</ContentPage>

@@ -1,0 +1,109 @@
+is_global = true
+build_property.EnableAotAnalyzer = 
+build_property.EnableSingleFileAnalyzer = 
+build_property.EnableTrimAnalyzer = false
+build_property.IncludeAllContentForSelfExtract = 
+build_property.TargetFramework = net9.0-maccatalyst
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = TuCurso
+build_property.ProjectDir = D:\CLASES_2024_2025\TFG\AppDef\TuCurso\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.EffectiveAnalysisLevelStyle = 9.0
+build_property.EnableCodeStyleSeverity = 
+
+[D:/CLASES_2024_2025/TFG/AppDef/TuCurso/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = TuCurso.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[D:/CLASES_2024_2025/TFG/AppDef/TuCurso/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = TuCurso.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
+
+[D:/CLASES_2024_2025/TFG/AppDef/TuCurso/MainPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = TuCurso.MainPage.xaml
+build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
+build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
+
+[D:/CLASES_2024_2025/TFG/AppDef/TuCurso/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = TuCurso.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
+
+[D:/CLASES_2024_2025/TFG/AppDef/TuCurso/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = TuCurso.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
+
+[D:/CLASES_2024_2025/TFG/AppDef/TuCurso/Views/AnadirAmigosPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = TuCurso.Views.AnadirAmigosPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\AnadirAmigosPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\AnadirAmigosPage.xaml
+
+[D:/CLASES_2024_2025/TFG/AppDef/TuCurso/Views/ApuntesPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = TuCurso.Views.ApuntesPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\ApuntesPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\ApuntesPage.xaml
+
+[D:/CLASES_2024_2025/TFG/AppDef/TuCurso/Views/CrearCursoPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = TuCurso.Views.CrearCursoPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\CrearCursoPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\CrearCursoPage.xaml
+
+[D:/CLASES_2024_2025/TFG/AppDef/TuCurso/Views/CursoDetailPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = TuCurso.Views.CursoDetailPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\CursoDetailPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\CursoDetailPage.xaml
+
+[D:/CLASES_2024_2025/TFG/AppDef/TuCurso/Views/EditarCursoPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = TuCurso.Views.EditarCursoPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\EditarCursoPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\EditarCursoPage.xaml
+
+[D:/CLASES_2024_2025/TFG/AppDef/TuCurso/Views/LoginPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = TuCurso.Views.LoginPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\LoginPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\LoginPage.xaml
+
+[D:/CLASES_2024_2025/TFG/AppDef/TuCurso/Views/MisAmigosPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = TuCurso.Views.MisAmigosPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\MisAmigosPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\MisAmigosPage.xaml
+
+[D:/CLASES_2024_2025/TFG/AppDef/TuCurso/Views/PomodoroView.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = TuCurso.Views.PomodoroView.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\PomodoroView.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\PomodoroView.xaml
+
+[D:/CLASES_2024_2025/TFG/AppDef/TuCurso/Views/RegisterPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = TuCurso.Views.RegisterPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\RegisterPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\RegisterPage.xaml
+
+[D:/CLASES_2024_2025/TFG/AppDef/TuCurso/Views/SolicitudesAmistadPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = TuCurso.Views.SolicitudesAmistadPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\SolicitudesAmistadPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\SolicitudesAmistadPage.xaml

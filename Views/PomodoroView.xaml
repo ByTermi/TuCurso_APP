@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TuCurso.Views.PomodoroView"
+             Title="Pomodoro"
+             x:Name="pomodoroView"
+             BackgroundColor="{AppThemeBinding Light={StaticResource White}, Dark={StaticResource Gray950}}">
+
+    <ScrollView>
+        <Grid RowDefinitions="Auto,Auto,Auto,*" Padding="20" RowSpacing="20">
+            <!-- Título -->
+            <Label Grid.Row="0" 
+                   Text="Pomodoro"
+                   FontSize="24"
+                   FontAttributes="Bold"
+                   HorizontalOptions="Center"/>
+
+            <!-- Presets y configuración personalizada -->
+            <Grid Grid.Row="1" RowDefinitions="Auto,Auto" Margin="0,0,0,20">
+                <!-- Presets rápidos -->
+                <Picker x:Name="tiempoPicker"
+                        Grid.Row="0"
+                        Title="Presets rápidos"
+                        SelectedIndexChanged="OnTiempoSeleccionado"
+                        Margin="0,0,0,10">
+                    <Picker.ItemsSource>
+                        <x:Array Type="{x:Type x:String}">
+                            <x:String>25 minutos (Pomodoro)</x:String>
+                            <x:String>5 minutos (Descanso corto)</x:String>
+                            <x:String>15 minutos (Descanso largo)</x:String>
+                            <x:String>Personalizado</x:String>
+                        </x:Array>
+                    </Picker.ItemsSource>
+                </Picker>
+
+                <!-- Selectores de tiempo personalizados -->
+                <Grid Grid.Row="1" 
+                      x:Name="tiempoPersonalizadoGrid"
+                      IsVisible="False"
+                      ColumnDefinitions="*,*,*"
+                      ColumnSpacing="10">
+                    <!-- Horas -->
+                    <VerticalStackLayout Grid.Column="0">
+                        <Label Text="Horas"
+                               HorizontalOptions="Center"/>
+                        <Entry x:Name="horasEntry"
+                               Keyboard="Numeric"
+                               Text="0"
+                               MaxLength="2"
+                               TextChanged="OnTiempoPersonalizadoCambiado"
+                               HorizontalTextAlignment="Center"/>
+                    </VerticalStackLayout>
+
+                    <!-- Minutos -->
+                    <VerticalStackLayout Grid.Column="1">
+                        <Label Text="Minutos"
+                               HorizontalOptions="Center"/>
+                        <Entry x:Name="minutosEntry"
+                               Keyboard="Numeric"
+                               Text="25"
+                               MaxLength="2"
+                               TextChanged="OnTiempoPersonalizadoCambiado"
+                               HorizontalTextAlignment="Center"/>
+                    </VerticalStackLayout>
+
+                    <!-- Segundos -->
+                    <VerticalStackLayout Grid.Column="2">
+                        <Label Text="Segundos"
+                               HorizontalOptions="Center"/>
+                        <Entry x:Name="segundosEntry"
+                               Keyboard="Numeric"
+                               Text="0"
+                               MaxLength="2"
+                               TextChanged="OnTiempoPersonalizadoCambiado"
+                               HorizontalTextAlignment="Center"/>
+                    </VerticalStackLayout>
+                </Grid>
+            </Grid>
+
+            <!-- Contenedor del círculo y controles -->
+            <Grid Grid.Row="2" RowDefinitions="Auto,Auto" RowSpacing="20">
+                <!-- Círculo del temporizador -->
+                <Grid HeightRequest="300" 
+                      WidthRequest="300"
+                      HorizontalOptions="Center">
+                    <!-- Círculo base (gris) -->
+                    <Ellipse Stroke="{AppThemeBinding Light={StaticResource Gray300}, Dark={StaticResource Gray600}}"
+                             StrokeThickness="10"
+                             Fill="Transparent"/>
+
+                    <!-- Círculo de progreso -->
+                    <Path x:Name="progressPath"
+                          Stroke="{StaticResource Primary}"
+                          StrokeThickness="10"/>
+
+                    <!-- Tiempo restante -->
+                    <VerticalStackLayout HorizontalOptions="Center" 
+                                       VerticalOptions="Center">
+                        <Label x:Name="tiempoRestanteLabel"
+                               Text="25:00"
+                               FontSize="48"
+                               FontAttributes="Bold"
+                               HorizontalOptions="Center"/>
+                        <Label x:Name="estadoLabel"
+                               Text="Listo para comenzar"
+                               FontSize="16"
+                               TextColor="{AppThemeBinding Light={StaticResource Gray600}, Dark={StaticResource Gray400}}"
+                               HorizontalOptions="Center"/>
+                    </VerticalStackLayout>
+                </Grid>
+
+                <!-- Botones de control -->
+                <HorizontalStackLayout Grid.Row="1"
+                                      Spacing="20"
+                                      HorizontalOptions="Center">
+                    <Button x:Name="iniciarButton"
+                            Text="Iniciar"
+                            Clicked="OnIniciarClicked"
+                            BackgroundColor="{StaticResource Primary}"
+                            TextColor="White"
+                            WidthRequest="120"
+                            HeightRequest="50"
+                            CornerRadius="25"/>
+
+                    <Button x:Name="detenerButton"
+                            Text="Detener"
+                            Clicked="OnDetenerClicked"
+                            IsEnabled="False"
+                            BackgroundColor="{StaticResource Danger}"
+                            TextColor="White"
+                            WidthRequest="120"
+                            HeightRequest="50"
+                            CornerRadius="25"/>
+                </HorizontalStackLayout>
+            </Grid>
+
+            <!-- Historial -->
+            <ScrollView Grid.Row="3" Margin="0,20,0,0">
+                <VerticalStackLayout Spacing="10">
+                    <Label Text="Historial de Pomodoros"
+       FontSize="20"
+       FontAttributes="Bold"
+       HorizontalOptions="Center"/>
+
+                    <CollectionView x:Name="pomodorosList"
+               ItemsSource="{Binding Pomodoros}"
+               EmptyView="No hay pomodoros registrados">
+                        <CollectionView.ItemTemplate>
+                            <DataTemplate>
+                                <Frame Margin="0,5"
+                   Padding="15"
+                   BorderColor="{StaticResource Primary}"
+                   BackgroundColor="{AppThemeBinding Light={StaticResource White}, Dark={StaticResource Gray800}}">
+                                    <Grid ColumnDefinitions="*,Auto">
+                                        <VerticalStackLayout Grid.Column="0" Spacing="5">
+                                            <Label Text="{Binding FechaHoraInicial, StringFormat='Inicio: {0:dd/MM/yyyy HH:mm}'}"
+                               FontAttributes="Bold"/>
+                                            <Label Text="{Binding FechaHoraDestino, StringFormat='Fin: {0:dd/MM/yyyy HH:mm}'}"
+                               TextColor="{AppThemeBinding Light={StaticResource Gray600}, Dark={StaticResource Gray400}}"/>
+                                            <Label Text="{Binding Duracion}"
+                               TextColor="{AppThemeBinding Light={StaticResource Primary}, Dark={StaticResource Primary}}"/>
+                                        </VerticalStackLayout>
+
+                                        <Button Grid.Column="1"
+Text="🗑"
+Command="{Binding Source={x:Reference pomodoroView}, Path=EliminarPomodoroCommand}"
+CommandParameter="{Binding .}"
+BackgroundColor="Transparent"
+TextColor="{StaticResource Danger}"
+FontSize="20"
+VerticalOptions="Center"/>
+
+                                    </Grid>
+                                </Frame>
+                            </DataTemplate>
+                        </CollectionView.ItemTemplate>
+                    </CollectionView>
+                </VerticalStackLayout>
+            </ScrollView>
+        </Grid>
+    </ScrollView>
+</ContentPage>

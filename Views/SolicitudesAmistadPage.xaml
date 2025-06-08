@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TuCurso.Views.SolicitudesAmistadPage"
+             Title="Solicitudes de Amistad">
+
+    <Grid RowDefinitions="Auto,*" Padding="20">
+        <!-- Cabecera -->
+        <VerticalStackLayout Grid.Row="0" Spacing="10">
+            <Label Text="Solicitudes Pendientes"
+                   FontSize="24"
+                   FontAttributes="Bold"
+                   HorizontalOptions="Center"/>
+
+            <Label x:Name="cantidadSolicitudesLabel"
+                   Text="No tienes solicitudes pendientes"
+                   TextColor="{AppThemeBinding Light={StaticResource Gray600}, Dark={StaticResource Gray400}}"
+                   HorizontalOptions="Center"/>
+        </VerticalStackLayout>
+
+        <!-- Lista de Solicitudes -->
+        <RefreshView Grid.Row="1" 
+                    IsRefreshing="{Binding IsBusy}"
+                    Command="{Binding RefreshCommand}">
+            <CollectionView ItemsSource="{Binding Solicitudes}"
+                          EmptyView="No hay solicitudes pendientes">
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <Frame Margin="0,5"
+                               Padding="15"
+                               BorderColor="{StaticResource Primary}"
+                               BackgroundColor="{AppThemeBinding Light={StaticResource White}, Dark={StaticResource Gray800}}">
+                            <Grid RowDefinitions="Auto,Auto">
+                                <!-- Información del usuario -->
+                                <Grid Grid.Row="0" 
+                                      ColumnDefinitions="Auto,*">
+                                    <Frame Grid.Column="0"
+                                           CornerRadius="25"
+                                           HeightRequest="50"
+                                           WidthRequest="50"
+                                           Padding="0"
+                                           IsClippedToBounds="True">
+                                        <Image Source="{Binding Emisor.Icono}"
+                                               Aspect="AspectFill"
+                                               HeightRequest="50"
+                                               WidthRequest="50"/>
+                                    </Frame>
+
+                                    <VerticalStackLayout Grid.Column="1"
+                                                       Margin="15,0"
+                                                       VerticalOptions="Center">
+                                        <Label Text="{Binding Emisor.Nombre}"
+                                               FontAttributes="Bold"/>
+                                        <Label Text="{Binding Emisor.Descripcion}"
+                                               TextColor="{AppThemeBinding Light={StaticResource Gray600}, Dark={StaticResource Gray400}}"
+                                               FontSize="14"/>
+                                    </VerticalStackLayout>
+                                </Grid>
+
+                                <!-- Botones de acción -->
+                                <HorizontalStackLayout Grid.Row="1"
+                                                     Spacing="10"
+                                                     HorizontalOptions="Center"
+                                                     Margin="0,10,0,0">
+                                    <Button Text="Aceptar"
+                                            Command="{Binding Source={RelativeSource AncestorType={x:Type ContentPage}}, Path=AceptarSolicitudCommand}"
+                                            CommandParameter="{Binding .}"
+                                            BackgroundColor="{StaticResource Primary}"
+                                            TextColor="White"
+                                            HeightRequest="40"
+                                            WidthRequest="120"
+                                            CornerRadius="20"/>
+
+                                    <Button Text="Rechazar"
+                                            Command="{Binding Source={RelativeSource AncestorType={x:Type ContentPage}}, Path=RechazarSolicitudCommand}"
+                                            CommandParameter="{Binding .}"
+                                            BackgroundColor="{StaticResource Danger}"
+                                            TextColor="White"
+                                            HeightRequest="40"
+                                            WidthRequest="120"
+                                            CornerRadius="20"/>
+                                </HorizontalStackLayout>
+                            </Grid>
+                        </Frame>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+        </RefreshView>
+
+        <!-- Indicador de carga -->
+        <ActivityIndicator Grid.RowSpan="2"
+                          IsRunning="{Binding IsBusy}"
+                          IsVisible="{Binding IsBusy}"
+                          HorizontalOptions="Center"
+                          VerticalOptions="Center"/>
+    </Grid>
+</ContentPage>

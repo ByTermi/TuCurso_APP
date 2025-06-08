@@ -1,0 +1,979 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\CLASES_2024_2025\\TFG\\AppDef\\TuCurso\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1597F013-CA1B-46C9-9C44-61666E14CA88}|TuCurso.csproj|d:\\clases_2024_2025\\tfg\\appdef\\tucurso\\views\\apuntespage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{1597F013-CA1B-46C9-9C44-61666E14CA88}|TuCurso.csproj|solutionrelative:views\\apuntespage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1597F013-CA1B-46C9-9C44-61666E14CA88}|TuCurso.csproj|d:\\clases_2024_2025\\tfg\\appdef\\tucurso\\views\\pomodoroview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{1597F013-CA1B-46C9-9C44-61666E14CA88}|TuCurso.csproj|solutionrelative:views\\pomodoroview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1597F013-CA1B-46C9-9C44-61666E14CA88}|TuCurso.csproj|d:\\clases_2024_2025\\tfg\\appdef\\tucurso\\views\\amigodetailpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{1597F013-CA1B-46C9-9C44-61666E14CA88}|TuCurso.csproj|solutionrelative:views\\amigodetailpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1597F013-CA1B-46C9-9C44-61666E14CA88}|TuCurso.csproj|d:\\clases_2024_2025\\tfg\\appdef\\tucurso\\models\\pomodorodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1597F013-CA1B-46C9-9C44-61666E14CA88}|TuCurso.csproj|solutionrelative:models\\pomodorodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1597F013-CA1B-46C9-9C44-61666E14CA88}|TuCurso.csproj|d:\\clases_2024_2025\\tfg\\appdef\\tucurso\\views\\registerpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1597F013-CA1B-46C9-9C44-61666E14CA88}|TuCurso.csproj|solutionrelative:views\\registerpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1597F013-CA1B-46C9-9C44-61666E14CA88}|TuCurso.csproj|d:\\clases_2024_2025\\tfg\\appdef\\tucurso\\views\\loginpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1597F013-CA1B-46C9-9C44-61666E14CA88}|TuCurso.csproj|solutionrelative:views\\loginpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1597F013-CA1B-46C9-9C44-61666E14CA88}|TuCurso.csproj|d:\\clases_2024_2025\\tfg\\appdef\\tucurso\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{1597F013-CA1B-46C9-9C44-61666E14CA88}|TuCurso.csproj|solutionrelative:mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1597F013-CA1B-46C9-9C44-61666E14CA88}|TuCurso.csproj|d:\\clases_2024_2025\\tfg\\appdef\\tucurso\\views\\cursodetailpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{1597F013-CA1B-46C9-9C44-61666E14CA88}|TuCurso.csproj|solutionrelative:views\\cursodetailpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1597F013-CA1B-46C9-9C44-61666E14CA88}|TuCurso.csproj|d:\\clases_2024_2025\\tfg\\appdef\\tucurso\\views\\editarcursopage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1597F013-CA1B-46C9-9C44-61666E14CA88}|TuCurso.csproj|solutionrelative:views\\editarcursopage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1597F013-CA1B-46C9-9C44-61666E14CA88}|TuCurso.csproj|d:\\clases_2024_2025\\tfg\\appdef\\tucurso\\appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1597F013-CA1B-46C9-9C44-61666E14CA88}|TuCurso.csproj|solutionrelative:appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1597F013-CA1B-46C9-9C44-61666E14CA88}|TuCurso.csproj|d:\\clases_2024_2025\\tfg\\appdef\\tucurso\\views\\cursodetailpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1597F013-CA1B-46C9-9C44-61666E14CA88}|TuCurso.csproj|solutionrelative:views\\cursodetailpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1597F013-CA1B-46C9-9C44-61666E14CA88}|TuCurso.csproj|d:\\clases_2024_2025\\tfg\\appdef\\tucurso\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1597F013-CA1B-46C9-9C44-61666E14CA88}|TuCurso.csproj|solutionrelative:mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1597F013-CA1B-46C9-9C44-61666E14CA88}|TuCurso.csproj|d:\\clases_2024_2025\\tfg\\appdef\\tucurso\\mainpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1597F013-CA1B-46C9-9C44-61666E14CA88}|TuCurso.csproj|solutionrelative:mainpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1597F013-CA1B-46C9-9C44-61666E14CA88}|TuCurso.csproj|d:\\clases_2024_2025\\tfg\\appdef\\tucurso\\services\\cursoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1597F013-CA1B-46C9-9C44-61666E14CA88}|TuCurso.csproj|solutionrelative:services\\cursoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1597F013-CA1B-46C9-9C44-61666E14CA88}|TuCurso.csproj|d:\\clases_2024_2025\\tfg\\appdef\\tucurso\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1597F013-CA1B-46C9-9C44-61666E14CA88}|TuCurso.csproj|solutionrelative:mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1597F013-CA1B-46C9-9C44-61666E14CA88}|TuCurso.csproj|d:\\clases_2024_2025\\tfg\\appdef\\tucurso\\resources\\appicon\\appiconfg.svg||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{1597F013-CA1B-46C9-9C44-61666E14CA88}|TuCurso.csproj|solutionrelative:resources\\appicon\\appiconfg.svg||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1597F013-CA1B-46C9-9C44-61666E14CA88}|TuCurso.csproj|d:\\clases_2024_2025\\tfg\\appdef\\tucurso\\resources\\appicon\\appicon.svg||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{1597F013-CA1B-46C9-9C44-61666E14CA88}|TuCurso.csproj|solutionrelative:resources\\appicon\\appicon.svg||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1597F013-CA1B-46C9-9C44-61666E14CA88}|TuCurso.csproj|d:\\clases_2024_2025\\tfg\\appdef\\tucurso\\views\\sobremipage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{1597F013-CA1B-46C9-9C44-61666E14CA88}|TuCurso.csproj|solutionrelative:views\\sobremipage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1597F013-CA1B-46C9-9C44-61666E14CA88}|TuCurso.csproj|d:\\clases_2024_2025\\tfg\\appdef\\tucurso\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{1597F013-CA1B-46C9-9C44-61666E14CA88}|TuCurso.csproj|solutionrelative:appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1597F013-CA1B-46C9-9C44-61666E14CA88}|TuCurso.csproj|d:\\clases_2024_2025\\tfg\\appdef\\tucurso\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1597F013-CA1B-46C9-9C44-61666E14CA88}|TuCurso.csproj|solutionrelative:app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1597F013-CA1B-46C9-9C44-61666E14CA88}|TuCurso.csproj|d:\\clases_2024_2025\\tfg\\appdef\\tucurso\\views\\sobremipage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1597F013-CA1B-46C9-9C44-61666E14CA88}|TuCurso.csproj|solutionrelative:views\\sobremipage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Vaquin\\AppData\\Local\\Temp\\.vsdbgsrc\\40e94ba2bcbeab9917891d12d2cb0c5e3294ce3c\\AppShell.xaml.sg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1597F013-CA1B-46C9-9C44-61666E14CA88}|TuCurso.csproj|d:\\clases_2024_2025\\tfg\\appdef\\tucurso\\views\\registerpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{1597F013-CA1B-46C9-9C44-61666E14CA88}|TuCurso.csproj|solutionrelative:views\\registerpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1597F013-CA1B-46C9-9C44-61666E14CA88}|TuCurso.csproj|d:\\clases_2024_2025\\tfg\\appdef\\tucurso\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1597F013-CA1B-46C9-9C44-61666E14CA88}|TuCurso.csproj|solutionrelative:services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1597F013-CA1B-46C9-9C44-61666E14CA88}|TuCurso.csproj|d:\\clases_2024_2025\\tfg\\appdef\\tucurso\\services\\authtokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1597F013-CA1B-46C9-9C44-61666E14CA88}|TuCurso.csproj|solutionrelative:services\\authtokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1597F013-CA1B-46C9-9C44-61666E14CA88}|TuCurso.csproj|d:\\clases_2024_2025\\tfg\\appdef\\tucurso\\services\\authenticatedhttpclienthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1597F013-CA1B-46C9-9C44-61666E14CA88}|TuCurso.csproj|solutionrelative:services\\authenticatedhttpclienthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1597F013-CA1B-46C9-9C44-61666E14CA88}|TuCurso.csproj|d:\\clases_2024_2025\\tfg\\appdef\\tucurso\\services\\amigosservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1597F013-CA1B-46C9-9C44-61666E14CA88}|TuCurso.csproj|solutionrelative:services\\amigosservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1597F013-CA1B-46C9-9C44-61666E14CA88}|TuCurso.csproj|d:\\clases_2024_2025\\tfg\\appdef\\tucurso\\services\\pomodoroservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1597F013-CA1B-46C9-9C44-61666E14CA88}|TuCurso.csproj|solutionrelative:services\\pomodoroservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1597F013-CA1B-46C9-9C44-61666E14CA88}|TuCurso.csproj|d:\\clases_2024_2025\\tfg\\appdef\\tucurso\\views\\amigodetailpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1597F013-CA1B-46C9-9C44-61666E14CA88}|TuCurso.csproj|solutionrelative:views\\amigodetailpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1597F013-CA1B-46C9-9C44-61666E14CA88}|TuCurso.csproj|d:\\clases_2024_2025\\tfg\\appdef\\tucurso\\views\\pomodoroview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1597F013-CA1B-46C9-9C44-61666E14CA88}|TuCurso.csproj|solutionrelative:views\\pomodoroview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1597F013-CA1B-46C9-9C44-61666E14CA88}|TuCurso.csproj|d:\\clases_2024_2025\\tfg\\appdef\\tucurso\\models\\usuariodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1597F013-CA1B-46C9-9C44-61666E14CA88}|TuCurso.csproj|solutionrelative:models\\usuariodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1597F013-CA1B-46C9-9C44-61666E14CA88}|TuCurso.csproj|d:\\clases_2024_2025\\tfg\\appdef\\tucurso\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1597F013-CA1B-46C9-9C44-61666E14CA88}|TuCurso.csproj|solutionrelative:models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1597F013-CA1B-46C9-9C44-61666E14CA88}|TuCurso.csproj|d:\\clases_2024_2025\\tfg\\appdef\\tucurso\\models\\solicitudamistad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1597F013-CA1B-46C9-9C44-61666E14CA88}|TuCurso.csproj|solutionrelative:models\\solicitudamistad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1597F013-CA1B-46C9-9C44-61666E14CA88}|TuCurso.csproj|d:\\clases_2024_2025\\tfg\\appdef\\tucurso\\models\\puntodecontroldto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1597F013-CA1B-46C9-9C44-61666E14CA88}|TuCurso.csproj|solutionrelative:models\\puntodecontroldto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1597F013-CA1B-46C9-9C44-61666E14CA88}|TuCurso.csproj|d:\\clases_2024_2025\\tfg\\appdef\\tucurso\\models\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1597F013-CA1B-46C9-9C44-61666E14CA88}|TuCurso.csproj|solutionrelative:models\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1597F013-CA1B-46C9-9C44-61666E14CA88}|TuCurso.csproj|d:\\clases_2024_2025\\tfg\\appdef\\tucurso\\models\\loginresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1597F013-CA1B-46C9-9C44-61666E14CA88}|TuCurso.csproj|solutionrelative:models\\loginresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1597F013-CA1B-46C9-9C44-61666E14CA88}|TuCurso.csproj|d:\\clases_2024_2025\\tfg\\appdef\\tucurso\\models\\curso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1597F013-CA1B-46C9-9C44-61666E14CA88}|TuCurso.csproj|solutionrelative:models\\curso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1597F013-CA1B-46C9-9C44-61666E14CA88}|TuCurso.csproj|d:\\clases_2024_2025\\tfg\\appdef\\tucurso\\views\\apuntespage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1597F013-CA1B-46C9-9C44-61666E14CA88}|TuCurso.csproj|solutionrelative:views\\apuntespage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1597F013-CA1B-46C9-9C44-61666E14CA88}|TuCurso.csproj|d:\\clases_2024_2025\\tfg\\appdef\\tucurso\\views\\solicitudesamistadpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1597F013-CA1B-46C9-9C44-61666E14CA88}|TuCurso.csproj|solutionrelative:views\\solicitudesamistadpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1597F013-CA1B-46C9-9C44-61666E14CA88}|TuCurso.csproj|d:\\clases_2024_2025\\tfg\\appdef\\tucurso\\models\\apunte.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1597F013-CA1B-46C9-9C44-61666E14CA88}|TuCurso.csproj|solutionrelative:models\\apunte.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1597F013-CA1B-46C9-9C44-61666E14CA88}|TuCurso.csproj|d:\\clases_2024_2025\\tfg\\appdef\\tucurso\\data\\apunterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1597F013-CA1B-46C9-9C44-61666E14CA88}|TuCurso.csproj|solutionrelative:data\\apunterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1597F013-CA1B-46C9-9C44-61666E14CA88}|TuCurso.csproj|d:\\clases_2024_2025\\tfg\\appdef\\tucurso\\data\\iapunterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1597F013-CA1B-46C9-9C44-61666E14CA88}|TuCurso.csproj|solutionrelative:data\\iapunterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1597F013-CA1B-46C9-9C44-61666E14CA88}|TuCurso.csproj|d:\\clases_2024_2025\\tfg\\appdef\\tucurso\\views\\misamigospage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{1597F013-CA1B-46C9-9C44-61666E14CA88}|TuCurso.csproj|solutionrelative:views\\misamigospage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1597F013-CA1B-46C9-9C44-61666E14CA88}|TuCurso.csproj|d:\\clases_2024_2025\\tfg\\appdef\\tucurso\\views\\misamigospage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1597F013-CA1B-46C9-9C44-61666E14CA88}|TuCurso.csproj|solutionrelative:views\\misamigospage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1597F013-CA1B-46C9-9C44-61666E14CA88}|TuCurso.csproj|d:\\clases_2024_2025\\tfg\\appdef\\tucurso\\tucurso.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{1597F013-CA1B-46C9-9C44-61666E14CA88}|TuCurso.csproj|solutionrelative:tucurso.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1597F013-CA1B-46C9-9C44-61666E14CA88}|TuCurso.csproj|d:\\clases_2024_2025\\tfg\\appdef\\tucurso\\platforms\\android\\androidmanifest.xml||{4E01A4BC-CFCF-452C-8C08-51352512D197}",
+      "RelativeMoniker": "D:0:0:{1597F013-CA1B-46C9-9C44-61666E14CA88}|TuCurso.csproj|solutionrelative:platforms\\android\\androidmanifest.xml||{4E01A4BC-CFCF-452C-8C08-51352512D197}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1597F013-CA1B-46C9-9C44-61666E14CA88}|TuCurso.csproj|d:\\clases_2024_2025\\tfg\\appdef\\tucurso\\platforms\\android\\resources\\xml\\network_security_config.xml||{6B79B2C4-8503-4A04-8248-ADCEF2B49CB1}",
+      "RelativeMoniker": "D:0:0:{1597F013-CA1B-46C9-9C44-61666E14CA88}|TuCurso.csproj|solutionrelative:platforms\\android\\resources\\xml\\network_security_config.xml||{6B79B2C4-8503-4A04-8248-ADCEF2B49CB1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1597F013-CA1B-46C9-9C44-61666E14CA88}|TuCurso.csproj|d:\\clases_2024_2025\\tfg\\appdef\\tucurso\\views\\loginpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{1597F013-CA1B-46C9-9C44-61666E14CA88}|TuCurso.csproj|solutionrelative:views\\loginpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1597F013-CA1B-46C9-9C44-61666E14CA88}|TuCurso.csproj|d:\\clases_2024_2025\\tfg\\appdef\\tucurso\\views\\solicitudesamistadpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{1597F013-CA1B-46C9-9C44-61666E14CA88}|TuCurso.csproj|solutionrelative:views\\solicitudesamistadpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1597F013-CA1B-46C9-9C44-61666E14CA88}|TuCurso.csproj|d:\\clases_2024_2025\\tfg\\appdef\\tucurso\\views\\anadiramigospage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1597F013-CA1B-46C9-9C44-61666E14CA88}|TuCurso.csproj|solutionrelative:views\\anadiramigospage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1597F013-CA1B-46C9-9C44-61666E14CA88}|TuCurso.csproj|d:\\clases_2024_2025\\tfg\\appdef\\tucurso\\views\\anadiramigospage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{1597F013-CA1B-46C9-9C44-61666E14CA88}|TuCurso.csproj|solutionrelative:views\\anadiramigospage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Vaquin\\AppData\\Local\\Temp\\.vsdbgsrc\\c2111133e7bb506b10d23f872902ec990879d1af\\Views_CursoDetailPage.xaml.sg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Vaquin\\.nuget\\packages\\microsoft.maui.resizetizer\\9.0.50\\buildTransitive\\Microsoft.Maui.Resizetizer.After.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1597F013-CA1B-46C9-9C44-61666E14CA88}|TuCurso.csproj|d:\\clases_2024_2025\\tfg\\appdef\\tucurso\\views\\crearcursopage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{1597F013-CA1B-46C9-9C44-61666E14CA88}|TuCurso.csproj|solutionrelative:views\\crearcursopage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1597F013-CA1B-46C9-9C44-61666E14CA88}|TuCurso.csproj|d:\\clases_2024_2025\\tfg\\appdef\\tucurso\\views\\editarcursopage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{1597F013-CA1B-46C9-9C44-61666E14CA88}|TuCurso.csproj|solutionrelative:views\\editarcursopage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1597F013-CA1B-46C9-9C44-61666E14CA88}|TuCurso.csproj|d:\\clases_2024_2025\\tfg\\appdef\\tucurso\\views\\crearcursopage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1597F013-CA1B-46C9-9C44-61666E14CA88}|TuCurso.csproj|solutionrelative:views\\crearcursopage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1597F013-CA1B-46C9-9C44-61666E14CA88}|TuCurso.csproj|d:\\clases_2024_2025\\tfg\\appdef\\tucurso\\models\\cursodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1597F013-CA1B-46C9-9C44-61666E14CA88}|TuCurso.csproj|solutionrelative:models\\cursodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1597F013-CA1B-46C9-9C44-61666E14CA88}|TuCurso.csproj|d:\\clases_2024_2025\\tfg\\appdef\\tucurso\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{1597F013-CA1B-46C9-9C44-61666E14CA88}|TuCurso.csproj|solutionrelative:app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1597F013-CA1B-46C9-9C44-61666E14CA88}|TuCurso.csproj|d:\\clases_2024_2025\\tfg\\appdef\\tucurso\\services\\httpsclienthandlerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1597F013-CA1B-46C9-9C44-61666E14CA88}|TuCurso.csproj|solutionrelative:services\\httpsclienthandlerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1597F013-CA1B-46C9-9C44-61666E14CA88}|TuCurso.csproj|d:\\clases_2024_2025\\tfg\\appdef\\tucurso\\tucurso.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{1597F013-CA1B-46C9-9C44-61666E14CA88}|TuCurso.csproj|solutionrelative:tucurso.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 10,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "MainPage.cs",
+              "DocumentMoniker": "D:\\CLASES_2024_2025\\TFG\\AppDef\\TuCurso\\MainPage.cs",
+              "RelativeDocumentMoniker": "MainPage.cs",
+              "ToolTip": "D:\\CLASES_2024_2025\\TFG\\AppDef\\TuCurso\\MainPage.cs",
+              "RelativeToolTip": "MainPage.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-08T17:46:30.369Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "appiconfg.svg",
+              "DocumentMoniker": "D:\\CLASES_2024_2025\\TFG\\AppDef\\TuCurso\\Resources\\AppIcon\\appiconfg.svg",
+              "RelativeDocumentMoniker": "Resources\\AppIcon\\appiconfg.svg",
+              "ToolTip": "D:\\CLASES_2024_2025\\TFG\\AppDef\\TuCurso\\Resources\\AppIcon\\appiconfg.svg",
+              "RelativeToolTip": "Resources\\AppIcon\\appiconfg.svg",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAnfAAAAAAAAA==",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAGSSURBVDhPpZO/agJBEId/uZgIWghiI4I2NhIUtLOwuJRHLhACtoKlnc/gI4jgI4hdJIQrAqmCvUWC2FqphSCi5o\u002BXmXFvT3IWgXzw4TI7M87t7eFfuK57ppaMQVrkFXlBHu8xLvlJvpFP5Dep4eJHkpP\u002BokOek5obMpCYzWbdWCwWiCvvSPlnhsfWJBIJ1Ot12LYt60KhgEgkonY1UuONYZLXvKhWq2g2m0in09jv9xxCPp9HuVyWZuPxWGLEK/kSOqz9A9vtdohGo7AsC6HQYZsOG\u002Bv1Gt1uF4PBQGIe3iNolsulJDYaDQyHQ2y3W8znc0wmE/T7fZXlE2hgGIYUTadTdDodzGYzmardbmO1Wqksn0CDcDiMZDKJXC6HTCYj57BYLLDZbPSZHOM14NeiqVQqUpxKpaSIJ\u002BJHKpVKKsPHa8A3THAcB61WS0aPx\u002BMy/mg0Qq1WQ6/XU1nCh/oVbPL3RXGLxaJrmmYgrrwnNXwf\u002BHqeSjzlMynv\u002BPiD4Sa3JN\u002BwSw6cgMd\u002BJx/ILw78E\u002BAHyDum0hZCUq4AAAAASUVORK5CYII=",
+              "WhenOpened": "2025-06-08T16:58:24.589Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "appicon.svg",
+              "DocumentMoniker": "D:\\CLASES_2024_2025\\TFG\\AppDef\\TuCurso\\Resources\\AppIcon\\appicon.svg",
+              "RelativeDocumentMoniker": "Resources\\AppIcon\\appicon.svg",
+              "ToolTip": "D:\\CLASES_2024_2025\\TFG\\AppDef\\TuCurso\\Resources\\AppIcon\\appicon.svg",
+              "RelativeToolTip": "Resources\\AppIcon\\appicon.svg",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAnfAAAAAAAAA==",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAGSSURBVDhPpZO/agJBEId/uZgIWghiI4I2NhIUtLOwuJRHLhACtoKlnc/gI4jgI4hdJIQrAqmCvUWC2FqphSCi5o\u002BXmXFvT3IWgXzw4TI7M87t7eFfuK57ppaMQVrkFXlBHu8xLvlJvpFP5Dep4eJHkpP\u002BokOek5obMpCYzWbdWCwWiCvvSPlnhsfWJBIJ1Ot12LYt60KhgEgkonY1UuONYZLXvKhWq2g2m0in09jv9xxCPp9HuVyWZuPxWGLEK/kSOqz9A9vtdohGo7AsC6HQYZsOG\u002Bv1Gt1uF4PBQGIe3iNolsulJDYaDQyHQ2y3W8znc0wmE/T7fZXlE2hgGIYUTadTdDodzGYzmardbmO1Wqksn0CDcDiMZDKJXC6HTCYj57BYLLDZbPSZHOM14NeiqVQqUpxKpaSIJ\u002BJHKpVKKsPHa8A3THAcB61WS0aPx\u002BMy/mg0Qq1WQ6/XU1nCh/oVbPL3RXGLxaJrmmYgrrwnNXwf\u002BHqeSjzlMynv\u002BPiD4Sa3JN\u002BwSw6cgMd\u002BJx/ILw78E\u002BAHyDum0hZCUq4AAAAASUVORK5CYII=",
+              "WhenOpened": "2025-06-08T16:42:58.486Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "SobreMiPage.xaml.cs",
+              "DocumentMoniker": "D:\\CLASES_2024_2025\\TFG\\AppDef\\TuCurso\\Views\\SobreMiPage.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\SobreMiPage.xaml.cs",
+              "ToolTip": "D:\\CLASES_2024_2025\\TFG\\AppDef\\TuCurso\\Views\\SobreMiPage.xaml.cs",
+              "RelativeToolTip": "Views\\SobreMiPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-08T15:32:55.352Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "SobreMiPage.xaml",
+              "DocumentMoniker": "D:\\CLASES_2024_2025\\TFG\\AppDef\\TuCurso\\Views\\SobreMiPage.xaml",
+              "RelativeDocumentMoniker": "Views\\SobreMiPage.xaml",
+              "ToolTip": "D:\\CLASES_2024_2025\\TFG\\AppDef\\TuCurso\\Views\\SobreMiPage.xaml",
+              "RelativeToolTip": "Views\\SobreMiPage.xaml",
+              "ViewState": "AgIAAJwAAAAAAAAAAAAAAKIAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-08T15:31:53.779Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "AppShell.xaml.sg.cs",
+              "DocumentMoniker": "C:\\Users\\Vaquin\\AppData\\Local\\Temp\\.vsdbgsrc\\40e94ba2bcbeab9917891d12d2cb0c5e3294ce3c\\AppShell.xaml.sg.cs",
+              "ToolTip": "C:\\Users\\Vaquin\\AppData\\Local\\Temp\\.vsdbgsrc\\40e94ba2bcbeab9917891d12d2cb0c5e3294ce3c\\AppShell.xaml.sg.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAiwBYAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-06T20:36:54.576Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "AmigoDetailPage.xaml.cs",
+              "DocumentMoniker": "D:\\CLASES_2024_2025\\TFG\\AppDef\\TuCurso\\Views\\AmigoDetailPage.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\AmigoDetailPage.xaml.cs",
+              "ToolTip": "D:\\CLASES_2024_2025\\TFG\\AppDef\\TuCurso\\Views\\AmigoDetailPage.xaml.cs",
+              "RelativeToolTip": "Views\\AmigoDetailPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADMAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T10:41:28.479Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AmigoDetailPage.xaml",
+              "DocumentMoniker": "D:\\CLASES_2024_2025\\TFG\\AppDef\\TuCurso\\Views\\AmigoDetailPage.xaml",
+              "RelativeDocumentMoniker": "Views\\AmigoDetailPage.xaml",
+              "ToolTip": "D:\\CLASES_2024_2025\\TFG\\AppDef\\TuCurso\\Views\\AmigoDetailPage.xaml",
+              "RelativeToolTip": "Views\\AmigoDetailPage.xaml",
+              "ViewState": "AgIAADgAAAAAAAAAAAD4vykAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-05T10:41:12.796Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "ApuntesPage.xaml.cs",
+              "DocumentMoniker": "D:\\CLASES_2024_2025\\TFG\\AppDef\\TuCurso\\Views\\ApuntesPage.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\ApuntesPage.xaml.cs",
+              "ToolTip": "D:\\CLASES_2024_2025\\TFG\\AppDef\\TuCurso\\Views\\ApuntesPage.xaml.cs",
+              "RelativeToolTip": "Views\\ApuntesPage.xaml.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAADgv0cAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T16:09:22.349Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ApuntesPage.xaml",
+              "DocumentMoniker": "D:\\CLASES_2024_2025\\TFG\\AppDef\\TuCurso\\Views\\ApuntesPage.xaml",
+              "RelativeDocumentMoniker": "Views\\ApuntesPage.xaml",
+              "ToolTip": "D:\\CLASES_2024_2025\\TFG\\AppDef\\TuCurso\\Views\\ApuntesPage.xaml",
+              "RelativeToolTip": "Views\\ApuntesPage.xaml",
+              "ViewState": "AgIAAFgAAAAAAAAAAAAcwGUAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-04T16:09:05.109Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "ApunteRepository.cs",
+              "DocumentMoniker": "D:\\CLASES_2024_2025\\TFG\\AppDef\\TuCurso\\Data\\ApunteRepository.cs",
+              "RelativeDocumentMoniker": "Data\\ApunteRepository.cs",
+              "ToolTip": "D:\\CLASES_2024_2025\\TFG\\AppDef\\TuCurso\\Data\\ApunteRepository.cs",
+              "RelativeToolTip": "Data\\ApunteRepository.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAWwEAAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T15:56:33.326Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "IApunteRepository.cs",
+              "DocumentMoniker": "D:\\CLASES_2024_2025\\TFG\\AppDef\\TuCurso\\Data\\IApunteRepository.cs",
+              "RelativeDocumentMoniker": "Data\\IApunteRepository.cs",
+              "ToolTip": "D:\\CLASES_2024_2025\\TFG\\AppDef\\TuCurso\\Data\\IApunteRepository.cs",
+              "RelativeToolTip": "Data\\IApunteRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAiwCwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T15:55:48.038Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "Apunte.cs",
+              "DocumentMoniker": "D:\\CLASES_2024_2025\\TFG\\AppDef\\TuCurso\\Models\\Apunte.cs",
+              "RelativeDocumentMoniker": "Models\\Apunte.cs",
+              "ToolTip": "D:\\CLASES_2024_2025\\TFG\\AppDef\\TuCurso\\Models\\Apunte.cs",
+              "RelativeToolTip": "Models\\Apunte.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAjwAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T15:50:41.545Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "AndroidManifest.xml",
+              "DocumentMoniker": "D:\\CLASES_2024_2025\\TFG\\AppDef\\TuCurso\\Platforms\\Android\\AndroidManifest.xml",
+              "RelativeDocumentMoniker": "Platforms\\Android\\AndroidManifest.xml",
+              "ToolTip": "D:\\CLASES_2024_2025\\TFG\\AppDef\\TuCurso\\Platforms\\Android\\AndroidManifest.xml",
+              "RelativeToolTip": "Platforms\\Android\\AndroidManifest.xml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
+              "WhenOpened": "2025-06-03T21:10:50.543Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "network_security_config.xml",
+              "DocumentMoniker": "D:\\CLASES_2024_2025\\TFG\\AppDef\\TuCurso\\Platforms\\Android\\Resources\\xml\\network_security_config.xml",
+              "RelativeDocumentMoniker": "Platforms\\Android\\Resources\\xml\\network_security_config.xml",
+              "ToolTip": "D:\\CLASES_2024_2025\\TFG\\AppDef\\TuCurso\\Platforms\\Android\\Resources\\xml\\network_security_config.xml",
+              "RelativeToolTip": "Platforms\\Android\\Resources\\xml\\network_security_config.xml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
+              "WhenOpened": "2025-06-03T21:04:08.083Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "SolicitudesAmistadPage.xaml.cs",
+              "DocumentMoniker": "D:\\CLASES_2024_2025\\TFG\\AppDef\\TuCurso\\Views\\SolicitudesAmistadPage.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\SolicitudesAmistadPage.xaml.cs",
+              "ToolTip": "D:\\CLASES_2024_2025\\TFG\\AppDef\\TuCurso\\Views\\SolicitudesAmistadPage.xaml.cs",
+              "RelativeToolTip": "Views\\SolicitudesAmistadPage.xaml.cs",
+              "ViewState": "AgIAAFgAAAAAAAAAAAAcwGAAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T02:07:55.706Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "SolicitudesAmistadPage.xaml",
+              "DocumentMoniker": "D:\\CLASES_2024_2025\\TFG\\AppDef\\TuCurso\\Views\\SolicitudesAmistadPage.xaml",
+              "RelativeDocumentMoniker": "Views\\SolicitudesAmistadPage.xaml",
+              "ToolTip": "D:\\CLASES_2024_2025\\TFG\\AppDef\\TuCurso\\Views\\SolicitudesAmistadPage.xaml",
+              "RelativeToolTip": "Views\\SolicitudesAmistadPage.xaml",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAcwGEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-01T02:07:24.649Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "AnadirAmigosPage.xaml.cs",
+              "DocumentMoniker": "D:\\CLASES_2024_2025\\TFG\\AppDef\\TuCurso\\Views\\AnadirAmigosPage.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\AnadirAmigosPage.xaml.cs",
+              "ToolTip": "D:\\CLASES_2024_2025\\TFG\\AppDef\\TuCurso\\Views\\AnadirAmigosPage.xaml.cs",
+              "RelativeToolTip": "Views\\AnadirAmigosPage.xaml.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T02:06:13.124Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "AnadirAmigosPage.xaml",
+              "DocumentMoniker": "D:\\CLASES_2024_2025\\TFG\\AppDef\\TuCurso\\Views\\AnadirAmigosPage.xaml",
+              "RelativeDocumentMoniker": "Views\\AnadirAmigosPage.xaml",
+              "ToolTip": "D:\\CLASES_2024_2025\\TFG\\AppDef\\TuCurso\\Views\\AnadirAmigosPage.xaml",
+              "RelativeToolTip": "Views\\AnadirAmigosPage.xaml",
+              "ViewState": "AgIAACkAAAAAAAAAAAAAwEkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-01T02:05:40.922Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "SolicitudAmistad.cs",
+              "DocumentMoniker": "D:\\CLASES_2024_2025\\TFG\\AppDef\\TuCurso\\Models\\SolicitudAmistad.cs",
+              "RelativeDocumentMoniker": "Models\\SolicitudAmistad.cs",
+              "ToolTip": "D:\\CLASES_2024_2025\\TFG\\AppDef\\TuCurso\\Models\\SolicitudAmistad.cs",
+              "RelativeToolTip": "Models\\SolicitudAmistad.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAUwDwAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T02:00:44.064Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "UsuarioDTO.cs",
+              "DocumentMoniker": "D:\\CLASES_2024_2025\\TFG\\AppDef\\TuCurso\\Models\\UsuarioDTO.cs",
+              "RelativeDocumentMoniker": "Models\\UsuarioDTO.cs",
+              "ToolTip": "D:\\CLASES_2024_2025\\TFG\\AppDef\\TuCurso\\Models\\UsuarioDTO.cs",
+              "RelativeToolTip": "Models\\UsuarioDTO.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAmwDwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T01:48:05.403Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "MisAmigosPage.xaml.cs",
+              "DocumentMoniker": "D:\\CLASES_2024_2025\\TFG\\AppDef\\TuCurso\\Views\\MisAmigosPage.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\MisAmigosPage.xaml.cs",
+              "ToolTip": "D:\\CLASES_2024_2025\\TFG\\AppDef\\TuCurso\\Views\\MisAmigosPage.xaml.cs",
+              "RelativeToolTip": "Views\\MisAmigosPage.xaml.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAcwA4AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T01:45:02.733Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "MisAmigosPage.xaml",
+              "DocumentMoniker": "D:\\CLASES_2024_2025\\TFG\\AppDef\\TuCurso\\Views\\MisAmigosPage.xaml",
+              "RelativeDocumentMoniker": "Views\\MisAmigosPage.xaml",
+              "ToolTip": "D:\\CLASES_2024_2025\\TFG\\AppDef\\TuCurso\\Views\\MisAmigosPage.xaml",
+              "RelativeToolTip": "Views\\MisAmigosPage.xaml",
+              "ViewState": "AgIAACoAAAAAAAAAAAAgwEUAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-01T01:44:26.505Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "AmigosService.cs",
+              "DocumentMoniker": "D:\\CLASES_2024_2025\\TFG\\AppDef\\TuCurso\\Services\\AmigosService.cs",
+              "RelativeDocumentMoniker": "Services\\AmigosService.cs",
+              "ToolTip": "D:\\CLASES_2024_2025\\TFG\\AppDef\\TuCurso\\Services\\AmigosService.cs",
+              "RelativeToolTip": "Services\\AmigosService.cs",
+              "ViewState": "AgIAAGMAAAAAAAAAAADgv4kAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T01:41:22.524Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "PomodoroService.cs",
+              "DocumentMoniker": "D:\\CLASES_2024_2025\\TFG\\AppDef\\TuCurso\\Services\\PomodoroService.cs",
+              "RelativeDocumentMoniker": "Services\\PomodoroService.cs",
+              "ToolTip": "D:\\CLASES_2024_2025\\TFG\\AppDef\\TuCurso\\Services\\PomodoroService.cs",
+              "RelativeToolTip": "Services\\PomodoroService.cs",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T14:30:06.777Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "PomodoroView.xaml.cs",
+              "DocumentMoniker": "D:\\CLASES_2024_2025\\TFG\\AppDef\\TuCurso\\Views\\PomodoroView.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\PomodoroView.xaml.cs",
+              "ToolTip": "D:\\CLASES_2024_2025\\TFG\\AppDef\\TuCurso\\Views\\PomodoroView.xaml.cs",
+              "RelativeToolTip": "Views\\PomodoroView.xaml.cs",
+              "ViewState": "AgIAAHMBAAAAAAAAAAAMwCEAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T14:07:39.972Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PomodoroView.xaml",
+              "DocumentMoniker": "D:\\CLASES_2024_2025\\TFG\\AppDef\\TuCurso\\Views\\PomodoroView.xaml",
+              "RelativeDocumentMoniker": "Views\\PomodoroView.xaml",
+              "ToolTip": "D:\\CLASES_2024_2025\\TFG\\AppDef\\TuCurso\\Views\\PomodoroView.xaml",
+              "RelativeToolTip": "Views\\PomodoroView.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-29T14:07:02.941Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PomodoroDTO.cs",
+              "DocumentMoniker": "D:\\CLASES_2024_2025\\TFG\\AppDef\\TuCurso\\Models\\PomodoroDTO.cs",
+              "RelativeDocumentMoniker": "Models\\PomodoroDTO.cs",
+              "ToolTip": "D:\\CLASES_2024_2025\\TFG\\AppDef\\TuCurso\\Models\\PomodoroDTO.cs",
+              "RelativeToolTip": "Models\\PomodoroDTO.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAADgvxcAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T14:05:53.141Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "Microsoft.Maui.Resizetizer.After.targets",
+              "DocumentMoniker": "C:\\Users\\Vaquin\\.nuget\\packages\\microsoft.maui.resizetizer\\9.0.50\\buildTransitive\\Microsoft.Maui.Resizetizer.After.targets",
+              "ToolTip": "C:\\Users\\Vaquin\\.nuget\\packages\\microsoft.maui.resizetizer\\9.0.50\\buildTransitive\\Microsoft.Maui.Resizetizer.After.targets",
+              "ViewState": "AgIAAF0DAAAAAAAAAAAEwIQDAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2025-05-27T18:31:06.355Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "Views_CursoDetailPage.xaml.sg.cs",
+              "DocumentMoniker": "C:\\Users\\Vaquin\\AppData\\Local\\Temp\\.vsdbgsrc\\c2111133e7bb506b10d23f872902ec990879d1af\\Views_CursoDetailPage.xaml.sg.cs",
+              "ToolTip": "C:\\Users\\Vaquin\\AppData\\Local\\Temp\\.vsdbgsrc\\c2111133e7bb506b10d23f872902ec990879d1af\\Views_CursoDetailPage.xaml.sg.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAowBYAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T19:00:07.744Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "PuntoDeControlDTO.cs",
+              "DocumentMoniker": "D:\\CLASES_2024_2025\\TFG\\AppDef\\TuCurso\\Models\\PuntoDeControlDTO.cs",
+              "RelativeDocumentMoniker": "Models\\PuntoDeControlDTO.cs",
+              "ToolTip": "D:\\CLASES_2024_2025\\TFG\\AppDef\\TuCurso\\Models\\PuntoDeControlDTO.cs",
+              "RelativeToolTip": "Models\\PuntoDeControlDTO.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAjwCwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T14:52:09.746Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "EditarCursoPage.xaml.cs",
+              "DocumentMoniker": "D:\\CLASES_2024_2025\\TFG\\AppDef\\TuCurso\\Views\\EditarCursoPage.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\EditarCursoPage.xaml.cs",
+              "ToolTip": "D:\\CLASES_2024_2025\\TFG\\AppDef\\TuCurso\\Views\\EditarCursoPage.xaml.cs",
+              "RelativeToolTip": "Views\\EditarCursoPage.xaml.cs",
+              "ViewState": "AgIAAKMAAAAAAAAAAAASwLQAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-08T19:44:46.628Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "EditarCursoPage.xaml",
+              "DocumentMoniker": "D:\\CLASES_2024_2025\\TFG\\AppDef\\TuCurso\\Views\\EditarCursoPage.xaml",
+              "RelativeDocumentMoniker": "Views\\EditarCursoPage.xaml",
+              "ToolTip": "D:\\CLASES_2024_2025\\TFG\\AppDef\\TuCurso\\Views\\EditarCursoPage.xaml",
+              "RelativeToolTip": "Views\\EditarCursoPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-08T19:44:19.726Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "Curso.cs",
+              "DocumentMoniker": "D:\\CLASES_2024_2025\\TFG\\AppDef\\TuCurso\\Models\\Curso.cs",
+              "RelativeDocumentMoniker": "Models\\Curso.cs",
+              "ToolTip": "D:\\CLASES_2024_2025\\TFG\\AppDef\\TuCurso\\Models\\Curso.cs",
+              "RelativeToolTip": "Models\\Curso.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAADwv2YAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-04T01:16:57.941Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "CrearCursoPage.xaml.cs",
+              "DocumentMoniker": "D:\\CLASES_2024_2025\\TFG\\AppDef\\TuCurso\\Views\\CrearCursoPage.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\CrearCursoPage.xaml.cs",
+              "ToolTip": "D:\\CLASES_2024_2025\\TFG\\AppDef\\TuCurso\\Views\\CrearCursoPage.xaml.cs",
+              "RelativeToolTip": "Views\\CrearCursoPage.xaml.cs",
+              "ViewState": "AgIAAHEAAAAAAAAAAAAgwHcAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-04T00:14:00.328Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "CrearCursoPage.xaml",
+              "DocumentMoniker": "D:\\CLASES_2024_2025\\TFG\\AppDef\\TuCurso\\Views\\CrearCursoPage.xaml",
+              "RelativeDocumentMoniker": "Views\\CrearCursoPage.xaml",
+              "ToolTip": "D:\\CLASES_2024_2025\\TFG\\AppDef\\TuCurso\\Views\\CrearCursoPage.xaml",
+              "RelativeToolTip": "Views\\CrearCursoPage.xaml",
+              "ViewState": "AgIAACAAAAAAAAAAAAAkwDcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-04T00:13:30.173Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AppShell.xaml.cs",
+              "DocumentMoniker": "D:\\CLASES_2024_2025\\TFG\\AppDef\\TuCurso\\AppShell.xaml.cs",
+              "RelativeDocumentMoniker": "AppShell.xaml.cs",
+              "ToolTip": "D:\\CLASES_2024_2025\\TFG\\AppDef\\TuCurso\\AppShell.xaml.cs",
+              "RelativeToolTip": "AppShell.xaml.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAgwF4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-03T23:55:13.935Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CursoDetailPage.xaml.cs",
+              "DocumentMoniker": "D:\\CLASES_2024_2025\\TFG\\AppDef\\TuCurso\\Views\\CursoDetailPage.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\CursoDetailPage.xaml.cs",
+              "ToolTip": "D:\\CLASES_2024_2025\\TFG\\AppDef\\TuCurso\\Views\\CursoDetailPage.xaml.cs",
+              "RelativeToolTip": "Views\\CursoDetailPage.xaml.cs",
+              "ViewState": "AgIAAH4BAAAAAAAAAAAMwIoBAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-03T23:51:42.401Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CursoDetailPage.xaml",
+              "DocumentMoniker": "D:\\CLASES_2024_2025\\TFG\\AppDef\\TuCurso\\Views\\CursoDetailPage.xaml",
+              "RelativeDocumentMoniker": "Views\\CursoDetailPage.xaml",
+              "ToolTip": "D:\\CLASES_2024_2025\\TFG\\AppDef\\TuCurso\\Views\\CursoDetailPage.xaml",
+              "RelativeToolTip": "Views\\CursoDetailPage.xaml",
+              "ViewState": "AgIAAHIAAAAAAAAAAAAnwMYAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-03T23:50:25.093Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "MainPage.xaml.cs",
+              "DocumentMoniker": "D:\\CLASES_2024_2025\\TFG\\AppDef\\TuCurso\\MainPage.xaml.cs",
+              "RelativeDocumentMoniker": "MainPage.xaml.cs",
+              "ToolTip": "D:\\CLASES_2024_2025\\TFG\\AppDef\\TuCurso\\MainPage.xaml.cs",
+              "RelativeToolTip": "MainPage.xaml.cs",
+              "ViewState": "AgIAANQAAAAAAAAAAAAcwOwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-03T22:17:49.143Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "CursoService.cs",
+              "DocumentMoniker": "D:\\CLASES_2024_2025\\TFG\\AppDef\\TuCurso\\Services\\CursoService.cs",
+              "RelativeDocumentMoniker": "Services\\CursoService.cs",
+              "ToolTip": "D:\\CLASES_2024_2025\\TFG\\AppDef\\TuCurso\\Services\\CursoService.cs",
+              "RelativeToolTip": "Services\\CursoService.cs",
+              "ViewState": "AgIAAK4AAAAAAAAAAAAhwBMBAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-03T22:15:23.748Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "CursoDTO.cs",
+              "DocumentMoniker": "D:\\CLASES_2024_2025\\TFG\\AppDef\\TuCurso\\Models\\CursoDTO.cs",
+              "RelativeDocumentMoniker": "Models\\CursoDTO.cs",
+              "ToolTip": "D:\\CLASES_2024_2025\\TFG\\AppDef\\TuCurso\\Models\\CursoDTO.cs",
+              "RelativeToolTip": "Models\\CursoDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-03T22:14:43.036Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "AuthenticatedHttpClientHandler.cs",
+              "DocumentMoniker": "D:\\CLASES_2024_2025\\TFG\\AppDef\\TuCurso\\Services\\AuthenticatedHttpClientHandler.cs",
+              "RelativeDocumentMoniker": "Services\\AuthenticatedHttpClientHandler.cs",
+              "ToolTip": "D:\\CLASES_2024_2025\\TFG\\AppDef\\TuCurso\\Services\\AuthenticatedHttpClientHandler.cs",
+              "RelativeToolTip": "Services\\AuthenticatedHttpClientHandler.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAUwDoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-03T18:00:50.376Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "AuthTokenService.cs",
+              "DocumentMoniker": "D:\\CLASES_2024_2025\\TFG\\AppDef\\TuCurso\\Services\\AuthTokenService.cs",
+              "RelativeDocumentMoniker": "Services\\AuthTokenService.cs",
+              "ToolTip": "D:\\CLASES_2024_2025\\TFG\\AppDef\\TuCurso\\Services\\AuthTokenService.cs",
+              "RelativeToolTip": "Services\\AuthTokenService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFsAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-03T18:00:03.59Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "AppShell.xaml",
+              "DocumentMoniker": "D:\\CLASES_2024_2025\\TFG\\AppDef\\TuCurso\\AppShell.xaml",
+              "RelativeDocumentMoniker": "AppShell.xaml",
+              "ToolTip": "D:\\CLASES_2024_2025\\TFG\\AppDef\\TuCurso\\AppShell.xaml",
+              "RelativeToolTip": "AppShell.xaml",
+              "ViewState": "AgIAADwAAAAAAAAAAAAwwFEAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-02T20:32:10.925Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "D:\\CLASES_2024_2025\\TFG\\AppDef\\TuCurso\\App.xaml.cs",
+              "RelativeDocumentMoniker": "App.xaml.cs",
+              "ToolTip": "D:\\CLASES_2024_2025\\TFG\\AppDef\\TuCurso\\App.xaml.cs",
+              "RelativeToolTip": "App.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-02T20:16:37.286Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "App.xaml",
+              "DocumentMoniker": "D:\\CLASES_2024_2025\\TFG\\AppDef\\TuCurso\\App.xaml",
+              "RelativeDocumentMoniker": "App.xaml",
+              "ToolTip": "D:\\CLASES_2024_2025\\TFG\\AppDef\\TuCurso\\App.xaml",
+              "RelativeToolTip": "App.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-02T20:16:30.881Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "LoginPage.xaml.cs",
+              "DocumentMoniker": "D:\\CLASES_2024_2025\\TFG\\AppDef\\TuCurso\\Views\\LoginPage.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\LoginPage.xaml.cs",
+              "ToolTip": "D:\\CLASES_2024_2025\\TFG\\AppDef\\TuCurso\\Views\\LoginPage.xaml.cs",
+              "RelativeToolTip": "Views\\LoginPage.xaml.cs",
+              "ViewState": "AgIAAHkAAAAAAAAAAAAYwAgAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-02T20:15:12.525Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "LoginPage.xaml",
+              "DocumentMoniker": "D:\\CLASES_2024_2025\\TFG\\AppDef\\TuCurso\\Views\\LoginPage.xaml",
+              "RelativeDocumentMoniker": "Views\\LoginPage.xaml",
+              "ToolTip": "D:\\CLASES_2024_2025\\TFG\\AppDef\\TuCurso\\Views\\LoginPage.xaml",
+              "RelativeToolTip": "Views\\LoginPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-02T20:14:46.209Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "HttpsClientHandlerService.cs",
+              "DocumentMoniker": "D:\\CLASES_2024_2025\\TFG\\AppDef\\TuCurso\\Services\\HttpsClientHandlerService.cs",
+              "RelativeDocumentMoniker": "Services\\HttpsClientHandlerService.cs",
+              "ToolTip": "D:\\CLASES_2024_2025\\TFG\\AppDef\\TuCurso\\Services\\HttpsClientHandlerService.cs",
+              "RelativeToolTip": "Services\\HttpsClientHandlerService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-02T20:07:37.983Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Usuario.cs",
+              "DocumentMoniker": "D:\\CLASES_2024_2025\\TFG\\AppDef\\TuCurso\\Models\\Usuario.cs",
+              "RelativeDocumentMoniker": "Models\\Usuario.cs",
+              "ToolTip": "D:\\CLASES_2024_2025\\TFG\\AppDef\\TuCurso\\Models\\Usuario.cs",
+              "RelativeToolTip": "Models\\Usuario.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-02T20:07:01.334Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Register.cs",
+              "DocumentMoniker": "D:\\CLASES_2024_2025\\TFG\\AppDef\\TuCurso\\Models\\Register.cs",
+              "RelativeDocumentMoniker": "Models\\Register.cs",
+              "ToolTip": "D:\\CLASES_2024_2025\\TFG\\AppDef\\TuCurso\\Models\\Register.cs",
+              "RelativeToolTip": "Models\\Register.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-02T20:06:26.842Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "LoginResult.cs",
+              "DocumentMoniker": "D:\\CLASES_2024_2025\\TFG\\AppDef\\TuCurso\\Models\\LoginResult.cs",
+              "RelativeDocumentMoniker": "Models\\LoginResult.cs",
+              "ToolTip": "D:\\CLASES_2024_2025\\TFG\\AppDef\\TuCurso\\Models\\LoginResult.cs",
+              "RelativeToolTip": "Models\\LoginResult.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAcwAQAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-02T20:05:58.712Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "D:\\CLASES_2024_2025\\TFG\\AppDef\\TuCurso\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "Services\\AuthService.cs",
+              "ToolTip": "D:\\CLASES_2024_2025\\TFG\\AppDef\\TuCurso\\Services\\AuthService.cs",
+              "RelativeToolTip": "Services\\AuthService.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAArwCoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-02T20:04:35.59Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "RegisterPage.xaml.cs",
+              "DocumentMoniker": "D:\\CLASES_2024_2025\\TFG\\AppDef\\TuCurso\\Views\\RegisterPage.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\RegisterPage.xaml.cs",
+              "ToolTip": "D:\\CLASES_2024_2025\\TFG\\AppDef\\TuCurso\\Views\\RegisterPage.xaml.cs",
+              "RelativeToolTip": "Views\\RegisterPage.xaml.cs",
+              "ViewState": "AgIAALcAAAAAAAAAAADgvwcAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-02T20:02:12.879Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "RegisterPage.xaml",
+              "DocumentMoniker": "D:\\CLASES_2024_2025\\TFG\\AppDef\\TuCurso\\Views\\RegisterPage.xaml",
+              "RelativeDocumentMoniker": "Views\\RegisterPage.xaml",
+              "ToolTip": "D:\\CLASES_2024_2025\\TFG\\AppDef\\TuCurso\\Views\\RegisterPage.xaml",
+              "RelativeToolTip": "Views\\RegisterPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-02T20:01:13.413Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "MauiProgram.cs",
+              "DocumentMoniker": "D:\\CLASES_2024_2025\\TFG\\AppDef\\TuCurso\\MauiProgram.cs",
+              "RelativeDocumentMoniker": "MauiProgram.cs",
+              "ToolTip": "D:\\CLASES_2024_2025\\TFG\\AppDef\\TuCurso\\MauiProgram.cs",
+              "RelativeToolTip": "MauiProgram.cs",
+              "ViewState": "AgIAADsAAAAAAAAAAAAqwKEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-02T19:55:23.059Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "D:\\CLASES_2024_2025\\TFG\\AppDef\\TuCurso\\MainPage.xaml",
+              "RelativeDocumentMoniker": "MainPage.xaml",
+              "ToolTip": "D:\\CLASES_2024_2025\\TFG\\AppDef\\TuCurso\\MainPage.xaml",
+              "RelativeToolTip": "MainPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-02T19:43:15.898Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "TuCurso.csproj",
+              "DocumentMoniker": "D:\\CLASES_2024_2025\\TFG\\AppDef\\TuCurso\\TuCurso.csproj",
+              "RelativeDocumentMoniker": "TuCurso.csproj",
+              "ToolTip": "D:\\CLASES_2024_2025\\TFG\\AppDef\\TuCurso\\TuCurso.csproj",
+              "RelativeToolTip": "TuCurso.csproj",
+              "ViewState": "AgIAAHEAAAAAAAAAAAAAAH0AAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-04-09T21:32:23.056Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "TuCurso",
+              "DocumentMoniker": "D:\\CLASES_2024_2025\\TFG\\AppDef\\TuCurso\\TuCurso.csproj",
+              "RelativeDocumentMoniker": "TuCurso.csproj",
+              "ToolTip": "D:\\CLASES_2024_2025\\TFG\\AppDef\\TuCurso\\TuCurso.csproj",
+              "RelativeToolTip": "TuCurso.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-04-09T21:12:41.217Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
